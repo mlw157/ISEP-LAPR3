@@ -1,0 +1,16 @@
+SELECT *
+FROM EvolutionInLastFiveYears Parent
+WHERE SECTOR_ID = 13
+  AND Name = 'Pineapple'
+ORDER BY YEAR, MONTH ASC;
+
+SELECT MONTH, PRODUCT_NAME, FIRST_YEAR_SALES, SECOND_YEAR_SALES, YEARS_COMPARISON
+FROM SalesComparison
+WHERE FIRST_YEAR = 2020
+  AND SECOND_YEAR = 2019;
+
+SELECT *
+FROM MonthlySalesEvolutionByCultureType;
+
+SELECT *
+FROM MonthlySalesEvolutionByCultureTypeAndHub;

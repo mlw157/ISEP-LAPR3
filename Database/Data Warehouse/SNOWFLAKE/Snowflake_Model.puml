@@ -1,0 +1,94 @@
+@startuml
+ title "Snowflake Model"
+
+ class Production <<(F,#5087FF)>>{
+     {static} id
+     time_id
+     sector_id
+     product_id
+     amount
+ }
+
+ class Sale <<(F,#5087FF)>>{
+     {static} id
+     time_id
+     client_id
+     product_id
+     quantity
+ }
+
+ class Time <<(D,#FFA500)>>{
+     {static} id
+     year
+     month
+ }
+
+ class Year<<(D,#FFA500)>>{
+     {static} year
+ }
+
+ class Month<<(D,#FFA500)>>{
+     {static} month
+ }
+
+ class Client<<(D,#FFA500)>>{
+     {static} id
+     fiscal_number
+     email
+     name
+ }
+
+ class Product<<(D,#FFA500)>>{
+     {static} id
+     type
+     name
+ }
+
+ class Culture<<(D,#FFA500)>>{
+     {static} name
+ }
+
+ class CultureType<<(D,#FFA500)>>{
+     {static} type
+ }
+
+ class Sector<<(D,#FFA500)>>{
+     {static} id
+     name
+     exploration
+ }
+
+ class HUB<<(D,#FFA500)>>{
+     {static} id
+     hub_name
+     hub_type
+ }
+
+ class HUBNAME<<(D,#FFA500)>>{
+     {static} hub_name
+ }
+
+ class HUBTYPE<<(D,#FFA500)>>{
+     {static} hub_type
+ }
+
+ Production "N" -up--"1" Time
+ Sale "N" -up-- "1" Time
+ Sale "N" -down-- "1" Product
+ Production "N" -down-- "1" Product
+
+ Sale "N" -right "1" Client
+ Production "N" -left "1" Sector
+
+ Time "N" -right "1" Year
+ Time "N" -left "1" Month
+
+ Product "N" -right "1" Culture
+ Product "N" -left "1" CultureType
+
+ HUB "N" -down "1" HUBNAME
+ HUB "N" -up "1" HUBTYPE
+
+ Sale "N" -left "1" HUB
+
+ @enduml

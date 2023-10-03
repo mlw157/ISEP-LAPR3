@@ -1,0 +1,136 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":GenerateExpeditionsWithoutRestrictionsUi" as ui
+participant ":GenerateExpeditionsWithoutRestrictionsController" as controller
+participant "Entity" as entity
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+
+activate user
+
+user -> ui : requests to generate an expedition list
+activate ui
+
+ui --> user : requests data (day)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui -> controller : calculateExpeditions(day)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> controller : entityStore = organization.getEntityStore()
+deactivate organization
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> controller : expeditionStore = organization.getExpeditionStore()
+deactivate organization
+controller -> controller : expeditionStore.getNoRestrictionsExpeditionMap().clear()
+controller -> controller : deliverAllProductsAndOrdersToHubs()
+activate controller
+controller -> controller :  List<Productor> productors = entityStore.getProductorsList()
+loop for (Productor productor : productors)
+    controller -> controller : deliverProductsToHub(productor)
+    activate controller
+    controller -> controller : TreeMap<Integer, List<Pair<Product, List<Pair<Double, Productor>>>>> stockMap = globalProductStore.getStockMap()
+    controller -> controller : TreeMap<Integer, Basket> basketsMap = productor.getBasketsMap()
+    loop for (Integer integer : basketsMap.keySet())
+        controller -> controller : Basket basket = basketsMap.get(integer)
+        loop (Pair<Product, Double> pair : basket.getProducts())
+        controller -> controller : Product product = pair.first()
+        controller -> controller : Double quantity = pair.second()
+        alt (!stockMap.containsKey(integer))
+            controller -> controller : stockMap.put(integer, new ArrayList<>())
+        end
+        controller -> controller : List<Pair<Product, List<Pair<Double, Productor>>>> list = stockMap.get(integer)
+        loop for (Pair<Product, List<Pair<Double, Productor>>> pair1 : list)
+            alt (pair1.first().equals(product))
+                controller->controller : List<Pair<Double, Productor>> list1 = pair1.second()
+                controller->controller : list1.add(new Pair<>(quantity, productor))
+            end
+        end
+        alt (!found)
+            controller -> controller : List<Pair<Double, Productor>> list1 = new ArrayList<>()
+            controller -> controller : list1.add(new Pair<>(quantity, productor))
+            controller -> controller : list.add(new Pair<>(product, list1))
+        end
+        end
+    end
+    deactivate controller
+    loop for (int i = 1; i <= day; i++)
+    controller -> controller : Expedition expedition = calculateDayOrders(i)
+    activate controller
+    controller -> controller : Expedition expedition = new Expedition(day)
+    controller -> controller : TreeMap<Integer, List<Pair<Product, List<Pair<Double, Entity>>>>> orderMap = globalProductStore.getOrderMap()
+    controller -> controller : TreeMap<Integer, List<Pair<Product, List<Pair<Double, Productor>>>>> stockMap = globalProductStore.getStockMap()
+    alt (orderMap.containsKey(day))
+        controller -> controller : List<Pair<Product, List<Pair<Double, Entity>>>> dayOrders = orderMap.get(day)
+        controller -> controller : List<Pair<Product, List<Pair<Double, Productor>>>> dayStocks = stockMap.get(day)
+        alt (day > 2)
+            controller -> controller : List<Pair<Product, List<Pair<Double, Productor>>>> dayStocksDayBeforeYesterday = stockMap.get(day - 2)
+            controller -> controller : List<Pair<Product, List<Pair<Double, Productor>>>> dayStocksYesterday = stockMap.get(day - 1)
+            loop (int y = 0; y < dayStocks.size(); y++)
+                controller -> controller : List<Pair<Double, Productor>> additionProducts1 = dayStocksYesterday.get(y).second()
+                controller -> controller : List<Pair<Double, Productor>> additionProducts2 = dayStocksDayBeforeYesterday.get(y).second()
+                controller -> controller : List<Pair<Double, Productor>> addedProducts = dayStocks.get(y).second()
+                loop (int z = 0; z < addedProducts.size(); z++)
+                    controller -> controller : Double sum = additionProducts1.get(z).first() + additionProducts2.get(z).first() + addedProducts.get(z).first()
+                    controller -> controller : addedProducts.get(z).setFirst(sum)
+                end
+            end
+        end
+        loop for (Pair<Product, List<Pair<Double, Entity>>> orders: dayOrders)
+            controller -> controller : List<Pair<Double, Productor>> products = new ArrayList<>()
+            controller -> controller : Product product = orders.first()
+            loop  for (int j = 0; j < dayStocks.size(); j++)
+                alt (dayStocks.get(j).first().equals(product))
+                    controller -> controller : products = dayStocks.get(j).second()
+                end
+            end
+        controller -> controller : Collections.sort(products, Comparator.comparing(p -> -p.first()))
+        controller -> controller : List<Pair<Double, Entity>> productOrders = orders.second()
+        loop for (int i = 0; i < productOrders.size(); i++)
+            controller -> controller : Pair<Double, Entity> order = productOrders.get(i)
+            controller -> controller : double quantity = order.first()
+            controller -> controller : Entity entity = order.second()
+            controller -> controller : Delivery delivery = new Delivery(entity, day)
+            controller -> controller : double quantitySupplied = products.get(0).first()
+            controller -> controller : Productor productor = products.get(0).second()
+            alt (quantitySupplied > quantity)
+                controller -> controller : products.get(0).setFirst(quantitySupplied - quantity)
+                controller -> controller : quantitySupplied = quantity
+            end
+            alt (quantitySupplied <= quantity)
+                controller -> controller : products.get(0).setFirst(0.0)
+                controller -> controller : quantity = quantitySupplied
+            end
+            alt (quantitySupplied != 0)
+                controller -> controller : delivery.addProduct(product, productor, quantity)
+                controller -> controller : expedition.addDelivery(delivery, entity)
+            end
+            controller -> controller : Collections.sort(products, Comparator.comparing(p -> -p.first()))
+        end
+    end
+    controller -> controller : expeditionStore.addExpedition(expedition, false)
+    end
+    deactivate controller
+    deactivate controller
+
+controller --> ui : result
+deactivate controller
+ui -> ui : Expedition expedition = expeditionStore.getNoRestrictionsExpeditionMap().get(day)
+ui --> user : informs operation success
+
+@enduml

@@ -1,0 +1,174 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package ui {
+class MinimumNetworkUi{
+-MinimumNetworkController minimumNetworkController
+-Scanner sc
++void run()
+}
+
+}
+package Controller {
+class MinimumNetworkController{
+-EntityStore entityStore
+-MapGraph <Entity,Integer> mapGraph
++MapGraph<Entity, Integer> getMinimumDistGraph()
++int getMinimumNetworkDistance(MapGraph<Entity,Integer> mapGraph)
+}
+}
+package Domain {
+
+package Store {
+class EntityStore {
+-MapGraph<Entity, Integer> entitiesGraph
++MapGraph<Entity, Integer> getEntitiesGraph()
++void setEntitiesGraph(MapGraph<Entity, Integer> entitiesGraph)
+}
+}
+package Model {
+
+abstract class Entity {
++Location location
++String name
++Location getLocation()
++String getName()
++String toString()
+
+}
+
+class Client extends Entity {
+}
+
+class Company extends Entity {
+}
+
+class Productor extends Entity {
+}
+
+class Location {
++String locationId
++double latitude;
++double longitude;
++String getLocationId()
++double getLatitude()
++double getLongitude()
+}
+
+class Organization {
+-EntityStore entityStore
+-IrrigationControllerStore irrigationControllerStore
++EntityStore getEntityStore()
++IrrigationControllerStore getIrrigationControllerStore()
+}
+
+}
+
+}
+package Utils {
+
+class Pair {
+-F first
+-S second
++F getFirst()
++S getSecond()
+
+}
+
+package Graph {
+
+package map {
+
+class MapGraph {
+-Map<V, MapVertex<V, E>> mapVertices
++boolean validVertex(V vert)
++Collection<V> adjVertices(V vert)
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++ Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++MapGraph<V, E> clone()
++String toString()
+}
+
+class MapVertex {
+-V element
+-Map<V, Edge<V, E>> outVerts
++V getElement()
++void addAdjVert(V vAdj, Edge<V, E> edge)
++void remAdjVert(V vAdj)
++Edge<V, E> getEdge(V vAdj)
++int numAdjVerts()
++Collection<V> getAllAdjVerts()
++Collection<Edge<V, E>> getAllOutEdges()
++String toString()
+}
+
+}
+
+class Edge {
+-V vOrig
+-V vDest
+-E weight
++V getVOrig()
++V getVDest()
++E getWeight()
++String toString()
++boolean equals(Object o)
++int compareTo(Object o)
+}
+
+interface Graph {
++boolean isDirected()
++int numVertices()
++ArrayList<V> vertices()
++boolean validVertex(V vert)
++int key(V vert)
++V vertex(int key)
++Collection<V> adjVertices(V vert)
++int numEdges()
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++Graph<V, E> clone()
+}
+
+class Algorithms {
++LinkedList<V> BreadthFirstSearch(Graph<V, E> g, V vert)
++void DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++LinkedList<V> DepthFirstSearch(Graph<V, E> g, V vert)
++void allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited, LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++void shortestPathDijkstra(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, boolean[] visited, V [] pathKeys, E [] dist)
++boolean shortestPaths(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, ArrayList<LinkedList<V>> paths, ArrayList<E> dists)
++void getPath(Graph<V, E> g, V vOrig, V vDest, V [] pathKeys, LinkedList<V> path)
++MatrixGraph<V,E> minDistGraph(Graph <V,E> g, Comparator<E> ce, BinaryOperator<E> sum)
++MapGraph<V,E> kruskallAlgorithm(Graph<V,E> g)
+}
+
+MapGraph .-> Graph
+MapGraph -> Edge : contains >
+MinimumNetworkUi .-> MinimumNetworkController
+MinimumNetworkController .-> MapGraph
+MinimumNetworkController .-> Algorithms
+MinimumNetworkController .-> Pair
+MinimumNetworkController .-> EntityStore
+MinimumNetworkController .-> Organization
+EntityStore -> Entity : contains >
+Organization --> EntityStore : contains >
+EntityStore .-> MapGraph
+Entity -> Location : contains >
+
+@enduml

@@ -1,0 +1,87 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":ImportIrrigationDataUi" as ui
+participant ":ImportIrrigationDataController" as controller
+participant "IrrigationController" as irrigationController
+participant ":IrrigationCalendar" as calendar
+participant "IrrigationControllerStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+
+
+
+
+activate user
+
+user -> ui : import irrigation data
+activate ui
+
+ui --> user : requests data (irrigation data file)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+
+ui -> controller : importIrrigaitonController(irrigationFile)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : irrigationControllerStore = organization.getIrrigationControllerStore()
+activate store
+store -> controller : irrigationCalendar = irrigationControllerStore.getIrrigationCalendar()
+deactivate store
+deactivate organization
+controller -> controller :ArrayList<Hour> irrigationHours = new ArrayList<>()
+loop while irrigationFile.firstLine.hasNext()
+    controller -> controller : irrigationHours.add(new Hour(firstLine.next()))
+    end
+controller -> irrigationController : setIrrigationHours(irrigationHours)
+activate irrigationController
+deactivate irrigationController
+controller -> controller : HashMap<Plot, Pair<Integer, String>> irrigationValuesMap = new HashMap<>()
+loop while irrigationFile.hasNextLine()
+    controller -> controller : Plot plot = new Plot(plotName);
+    controller -> controller :  Pair<Integer, String> irrigationValues = new Pair<>(irrigationTime, irrigationType)
+    controller -> controller : irrigationValuesMap.put(plot, irrigationValues)
+end
+controller -> irrigationController : setIrrigationValuesMap(irrigationValuesMap)
+activate irrigationController
+deactivate irrigationController
+deactivate controller
+ui -> controller : addThirtyDays()
+activate controller
+controller -> controller : currentDate = Calendar.getInstance().getTime()
+loop for i=0; i<30; i++
+ controller -> controller : date = currentDate + i
+ controller -> calendar : addDay(date)
+end
+
+deactivate controller
+ui -> controller : fillIrrigationCalendar()
+activate controller
+controller -> calendar : TreeMap<Date, LinkedList<Pair<Plot, Hour>>> daysIrrigationMap = getDaysIrrigationMap()
+activate calendar
+deactivate calendar
+loop foreach Date date : daysIrrigationMap.keySet()
+controller -> controller : day = date.getDate()
+alt day % 2 == 0
+controller -> controller : addToDay(date, "p")
+else
+controller -> controller : addToDay(date, "i")
+end
+end
+ui --> user : informs operation success
+
+
+
+
+
+
+@enduml

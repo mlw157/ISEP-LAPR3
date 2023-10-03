@@ -1,0 +1,74 @@
+@startuml
+autonumber
+'hide footbox
+actor "System User" as ADM
+
+participant ":DefineNearestHubUI" as UI
+participant ":DefineNearestHubController" as CTRL
+participant "EntityStore" as EST
+participant "Algorithms" as ALG
+participant ":Organization" as organization
+participant ":App" as app
+
+activate ADM
+
+ADM -> UI : requests to find the nearest hub for each client
+activate UI
+UI -> CTRL : List<Pair<Entity, Pair<Company, Integer>>> clientNearestList = controller.getNearestDistributionHubForEachClient()
+activate CTRL
+
+CTRL -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> EST : entityStore = organization.getEntityStore()
+activate EST
+EST -> CTRL : MapGraph = entityStore.getEntitiesGraph()
+deactivate EST
+deactivate organization
+|||
+CTRL -> CTRL : List<Pair<Entity, Pair<Company, Integer>>> nearestDistributionHubForAllClients = new ArrayList<>()
+loop for each entity in entityStore.getEntitiesGraph().vertices()
+alt (!(entity instanceof Productor))
+    alt (entity instanceof Company)
+        alt ((Company) entity).isDistributionHub()
+            CTRL -> CTRL : continue
+        end
+    end
+    CTRL -> CTRL : getNearestDistributionHub(entity)
+    activate CTRL
+    CTRL -> CTRL : getEntityReachableDistributionHubs(entity)
+    activate CTRL
+    CTRL -> CTRL : List<Pair<Company, Integer>> reachableDistributionHubs = new ArrayList<>()
+    CTRL -> CTRL : MapGraph<Entity, Integer> entityGraph = entityStore.getEntitiesGraph()
+    CTRL -> CTRL : ArrayList<LinkedList<Entity>> paths = new ArrayList<>()
+    CTRL -> CTRL : ArrayList<Integer> pathsDistances = new ArrayList<>()
+    CTRL -> ALG : Algorithms.shortestPaths(entityGraph, entity, Integer::compareTo, Integer::sum,0, paths, pathsDistances)
+    activate ALG
+    deactivate ALG
+    loop for (int i = 0; i < paths.size(); i++)
+        alt (paths.get(i).getLast() instanceof Company && ((Company) paths.get(i).getLast()).isDistributionHub())
+            CTRL -> CTRL : reachableDistributionHubs.add(new Pair<>((Company) paths.get(i).getLast(), pathsDistances.get(i)))
+        end
+    end
+    CTRL -> CTRL : reachableDistributionHubs
+    deactivate CTRL
+    CTRL -> CTRL : Pair<Company, Integer> nearestDistributionHub = null
+    loop for (Pair<Company, Integer> pair : reachableDistributionHubs)
+        alt (nearestDistributionHub == null || pair.second() < nearestDistributionHub.second())
+            CTRL -> CTRL : nearestDistributionHub = pair
+        end
+    end
+    CTRL -> CTRL : nearestDistributionHub
+    deactivate CTRL
+end
+end
+CTRL --> UI : result
+deactivate CTRL
+
+UI --> ADM : shows the user the nearest hub for each client
+deactivate UI
+deactivate ADM
+
+@enduml

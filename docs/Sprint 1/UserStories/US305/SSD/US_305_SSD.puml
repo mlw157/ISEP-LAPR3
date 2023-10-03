@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+SystemUser -> System: Shortest network between clients and producers
+System --> SystemUser: Show network
+@enduml

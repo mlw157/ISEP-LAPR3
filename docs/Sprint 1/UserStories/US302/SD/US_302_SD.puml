@@ -1,0 +1,71 @@
+@startuml
+autonumber
+'hide footbox
+actor "System User" as ADM
+
+participant ":VerifyConnectivityUI" as UI
+participant ":VerifyConnectivityController" as CTRL
+participant "EntityStore" as EST
+participant "Algorithms" as ALG
+participant ":Organization" as organization
+participant ":App" as app
+
+activate ADM
+
+ADM -> UI : requests the verification of connectivity of the graph
+activate UI
+UI -> CTRL : isConnected()
+activate CTRL
+
+CTRL -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> EST : entityStore = organization.getEntityStore()
+activate EST
+EST -> CTRL : MapGraph = entityStore.getEntitiesGraph()
+deactivate EST
+deactivate organization
+|||
+CTRL -> ALG : queue = Algorithms.DepthFirstSearch(mapGraph,mapGraph.vertex(0))
+activate ALG
+deactivate ALG
+
+alt (queue == null)
+   CTRL -> CTRL : return false
+end
+alt (mapGraph.numVertices() == queue.size())
+   CTRL -> CTRL : return true
+end
+CTRL --> UI : result
+deactivate CTRL
+|||
+
+
+
+UI -> CTRL : minimumNumberOfConnections()
+activate CTRL
+CTRL -> CTRL : LinkedList<Entity> path = new LinkedList<>()
+CTRL -> CTRL : MapGraph<Entity, Integer> noWeightsMapGraph = IgnoreWeights()
+CTRL -> CTRL : maxNumberOfConnections = 0
+loop for each entity in noWeightsMapGraph
+   CTRL -> CTRL : LinkedList<Entity> queue = new LinkedList<>()
+   CTRL -> ALG :  queue = Algorithms.BreadthFirstSearch(noWeightsMapGraph, entity)
+   activate ALG
+   deactivate ALG
+   CTRL -> ALG : Algorithms.shortestPath(noWeightsMapGraph,entity,queue.getLast(),Integer::compareTo,Integer::sum,0,path)
+   activate ALG
+   deactivate ALG
+   alt (maxNumberOfConnections < path.size()-1)
+      CTRL -> CTRL : maxNumberOfConnections = path.size()-1
+   end
+end
+CTRL --> UI : result
+deactivate CTRL
+
+UI --> ADM : Informs the user if the graph is connected or not and \n shows the minimum number of connections needed \n so that, in this network, any client/producer can contact any other.
+deactivate UI
+deactivate ADM
+
+@enduml

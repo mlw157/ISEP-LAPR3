@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":ImportBasketsUi" as ui
+participant ":ImportBasketsController" as controller
+participant "Entity" as entity
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+
+activate user
+
+user -> ui : import entities data
+activate ui
+
+ui --> user : requests data (baskets file)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui -> controller : importBaskets(file)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+deactivate organization
+controller -> controller :ArrayList<Product> productList = new ArrayList<>()
+loop (int i = 2; i < elements.length; i++)
+    controller -> controller : String productName = elements[i]
+    controller -> controller : productName = productName.replace("\"", "")
+    controller -> controller : productList.add(new Product(productName))
+end
+loop while file.hasNextLine()
+   controller -> controller : Entity entity = entityStore.getEntityByName(entityName)
+   alt (entity == null)
+   controller -> controller : continue
+   end
+   controller -> controller : ArrayList<Pair<Product, Double>> products = new ArrayList<>()
+   loop (int i = 2; i < elements.length; i++)
+        controller -> controller : products.add(new Pair<>(productList.get(i-2), Double.parseDouble(elements[i])))
+   end
+   controller -> controller : Basket basket = new Basket(products)
+   controller -> controller : char entityType = entityName.charAt(0)
+   alt (entityType == 'C')
+   controller -> controller : ((Client) entity).getBasketsMap().put(Integer.parseInt(elements[1]), basket)
+   end
+   alt (entityType == 'E')
+   controller -> controller : ((Company) entity).getBasketsMap().put(Integer.parseInt(elements[1]), basket)
+   end
+   alt (entityType == 'P')
+   controller -> controller : ((Productor) entity).getBasketsMap().put(Integer.parseInt(elements[1]), basket)
+   end
+end
+controller --> ui : result
+deactivate controller
+ui --> user : informs operation success
+
+@enduml

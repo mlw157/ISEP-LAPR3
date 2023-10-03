@@ -1,0 +1,41 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Organization {
+  -designation
+}
+
+class DistributionNetwork{
+}
+
+class Entity{
+    -name
+}
+
+class Company{
+    -isDistributionHub
+}
+
+class Location{
+     -locationId
+     -longitude
+     -latitude
+}
+
+class Productor{
+}
+
+class Client{
+}
+
+Organization "1" -- "1" DistributionNetwork : has >
+DistributionNetwork "1" -- "n" Entity : made of >
+Entity "1" -- "1" Location : based in >
+Entity --  Company : is a >
+Entity -- Productor : is a >
+Entity -- Client : is a >
+
+@enduml

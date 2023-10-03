@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="394.8px" preserveAspectRatio="none" style="width:1131px;height:394px;background:#FFFFFF;" version="1.1" viewBox="0 0 1131 394" width="1131.9px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="263.0305" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="29.75" y="63.4484"/><rect fill="#FFFFFF" height="248.6641" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="252.35" y="77.8148"/><rect fill="#FFFFFF" height="120.832" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="509.95" y="97.7812"/><rect fill="#FFFFFF" height="56.0328" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="509.95" y="256.0797"/><rect fill="#FFFFFF" height="19.9664" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="735.35" y="157.6805"/><rect fill="#FFFFFF" height="21" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="799.4" y="197.6133"/><rect fill="#FFFFFF" height="19.9664" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="934.15" y="137.7141"/><rect fill="#FFFFFF" height="19.9664" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="1109.15" y="117.7477"/><rect fill="none" height="40.6328" style="stroke:#000000;stroke-width:1.0499999999999998;" width="297.15" x="441.7" y="266.5797"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="32.9" x2="32.9" y1="56.4484" y2="339.0789"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="255.5" x2="255.5" y1="56.4484" y2="339.0789"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="513.1" x2="513.1" y1="56.4484" y2="339.0789"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="738.5" x2="738.5" y1="56.4484" y2="339.0789"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="802.9" x2="802.9" y1="56.4484" y2="339.0789"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="937.65" x2="937.65" y1="56.4484" y2="339.0789"/><line style="stroke:#181818;stroke-width:0.3499999999999999;stroke-dasharray:5.0,5.0;" x1="1112.3" x2="1112.3" y1="56.4484" y2="339.0789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="55.3" x="3.5" y="54.3717">System User</text><ellipse cx="33.25" cy="9.45" fill="#E2E2F0" rx="5.6" ry="5.6" style="stroke:#181818;stroke-width:0.3499999999999999;"/><path d="M33.25,15.05 L33.25,33.95 M24.15,20.65 L42.35,20.65 M33.25,33.95 L24.15,44.45 M33.25,33.95 L42.35,44.45 " fill="none" style="stroke:#181818;stroke-width:0.3499999999999999;"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="55.3" x="3.5" y="347.2506">System User</text><ellipse cx="33.25" cy="355.2773" fill="#E2E2F0" rx="5.6" ry="5.6" style="stroke:#181818;stroke-width:0.3499999999999999;"/><path d="M33.25,360.8773 L33.25,379.7773 M24.15,366.4773 L42.35,366.4773 M33.25,379.7773 L24.15,390.2773 M33.25,379.7773 L42.35,390.2773 " fill="none" style="stroke:#181818;stroke-width:0.3499999999999999;"/><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="94.5" x="208.6" y="35"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="84.7" x="213.5" y="48.7717">:MinimumNetworkUi</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="94.5" x="208.6" y="338.3789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="84.7" x="213.5" y="352.1506">:MinimumNetworkUi</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="129.5" x="448.7" y="35"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="119.7" x="453.6" y="48.7717">:MinimumNetworkController</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="129.5" x="448.7" y="338.3789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="119.7" x="453.6" y="352.1506">:MinimumNetworkController</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="58.1" x="709.8" y="35"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="48.3" x="714.7" y="48.7717">EntityStore</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="58.1" x="709.8" y="338.3789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="48.3" x="714.7" y="352.1506">EntityStore</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="56" x="774.9" y="35"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="46.2" x="779.8" y="48.7717">Algorithms</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="56" x="774.9" y="338.3789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="46.2" x="779.8" y="352.1506">Algorithms</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="68.6" x="903.35" y="35"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.8" x="908.25" y="48.7717">:Organization</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="68.6" x="903.35" y="338.3789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="58.8" x="908.25" y="352.1506">:Organization</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="30.1" x="1097.6" y="35"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="20.3" x="1102.5" y="48.7717">:App</text><rect fill="#E2E2F0" height="20.7484" rx="1.75" ry="1.75" style="stroke:#181818;stroke-width:0.3499999999999999;" width="30.1" x="1097.6" y="338.3789"/><text fill="#000000" font-family="sans-serif" font-size="9.8" lengthAdjust="spacing" textLength="20.3" x="1102.5" y="352.1506">:App</text><rect fill="#FFFFFF" height="263.0305" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="29.75" y="63.4484"/><rect fill="#FFFFFF" height="248.6641" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="252.35" y="77.8148"/><rect fill="#FFFFFF" height="120.832" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="509.95" y="97.7812"/><rect fill="#FFFFFF" height="56.0328" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="509.95" y="256.0797"/><rect fill="#FFFFFF" height="19.9664" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="735.35" y="157.6805"/><rect fill="#FFFFFF" height="21" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="799.4" y="197.6133"/><rect fill="#FFFFFF" height="19.9664" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="934.15" y="137.7141"/><rect fill="#FFFFFF" height="19.9664" style="stroke:#181818;stroke-width:0.6999999999999998;" width="7" x="1109.15" y="117.7477"/><polygon fill="#181818" points="243.95,75.0148,250.95,77.8148,243.95,80.6148,246.75,77.8148" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="36.75" x2="248.15" y1="77.8148" y2="77.8148"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="41.65" y="74.4864">1</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="194.6" x="49.35" y="74.4864">Shortest network between clients and producers</text><polygon fill="#181818" points="501.55,94.9812,508.55,97.7812,501.55,100.5812,504.35,97.7812" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="259.35" x2="505.75" y1="97.7812" y2="97.7812"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="264.25" y="94.4528">2</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="179.2" x="271.95" y="94.4528">minimumDistGraph=getMinimumDistGraph()</text><polygon fill="#181818" points="1100.75,114.9477,1107.75,117.7477,1100.75,120.5477,1103.55,117.7477" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="516.95" x2="1104.95" y1="117.7477" y2="117.7477"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="521.85" y="114.4192">3</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="97.3" x="529.55" y="114.4192">app = App.getInstance()</text><polygon fill="#181818" points="948.85,134.9141,941.85,137.7141,948.85,140.5141,946.05,137.7141" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="944.65" x2="1111.95" y1="137.7141" y2="137.7141"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="953.05" y="134.3856">4</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="147" x="960.75" y="134.3856">organization = app.getOrganization()</text><polygon fill="#181818" points="750.05,154.8805,743.05,157.6805,750.05,160.4805,747.25,157.6805" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="745.85" x2="936.95" y1="157.6805" y2="157.6805"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="754.25" y="154.3521">5</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="170.8" x="761.95" y="154.3521">entityStore = organization.getEntityStore()</text><polygon fill="#181818" points="524.65,174.8469,517.65,177.6469,524.65,180.4469,521.85,177.6469" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="520.45" x2="738.15" y1="177.6469" y2="177.6469"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="528.85" y="174.3185">6</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="185.5" x="536.55" y="174.3185">entitiesGraph = entityStore.getEntitiesGraph()</text><polygon fill="#181818" points="791,194.8133,798,197.6133,791,200.4133,793.8,197.6133" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="516.95" x2="795.2" y1="197.6133" y2="197.6133"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="521.85" y="194.2849">7</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="181.3" x="529.55" y="194.2849">graph=kruskallAlgorithm(minimumDistGraph)</text><polygon fill="#181818" points="501.55,253.2797,508.55,256.0797,501.55,258.8797,504.35,256.0797" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="259.35" x2="505.75" y1="256.0797" y2="256.0797"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="264.25" y="252.7513">8</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="229.6" x="271.95" y="252.7513">totalDistance=getMinimumNetworkDistance(entityGraph)</text><path d="M441.7,266.5797 L492.8,266.5797 L492.8,271.1461 L485.8,278.1461 L441.7,278.1461 L441.7,266.5797 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0499999999999998;"/><rect fill="none" height="40.6328" style="stroke:#000000;stroke-width:1.0499999999999998;" width="297.15" x="441.7" y="266.5797"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="19.6" x="452.2" y="275.5177">loop</text><text fill="#000000" font-family="sans-serif" font-size="7.7" font-weight="bold" lengthAdjust="spacing" textLength="114.8" x="503.3" y="274.9503">[for each edge in mapGraphs]</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="516.95" x2="546.35" y1="292.5125" y2="292.5125"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="546.35" x2="546.35" y1="292.5125" y2="301.6125"/><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="517.65" x2="546.35" y1="301.6125" y2="301.6125"/><polygon fill="#181818" points="524.65,298.8125,517.65,301.6125,524.65,304.4125,521.85,301.6125" style="stroke:#181818;stroke-width:0.6999999999999998;"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="4.9" x="521.85" y="289.1841">9</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="200.9" x="529.55" y="289.1841">totalDistance = totalDistance + edge.getWeight();</text><polygon fill="#181818" points="40.95,323.6789,33.95,326.4789,40.95,329.2789,38.15,326.4789" style="stroke:#181818;stroke-width:0.6999999999999998;"/><line style="stroke:#181818;stroke-width:0.6999999999999998;stroke-dasharray:2.0,2.0;" x1="36.75" x2="255.15" y1="326.4789" y2="326.4789"/><text fill="#000000" font-family="sans-serif" font-size="9.1" font-weight="bold" lengthAdjust="spacing" textLength="9.8" x="45.15" y="323.1505">10</text><text fill="#000000" font-family="sans-serif" font-size="9.1" lengthAdjust="spacing" textLength="83.3" x="57.75" y="323.1505">Show networketwork</text><!--MD5=[c75e5e390e13f11d7669b88e17bdbf99]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor user as "System User"
+
+participant ":MinimumNetworkUi" as ui
+participant ":MinimumNetworkController" as controller
+participant "EntityStore" as store
+participant "Algorithms" as alg
+participant ":Organization" as organization
+participant ":App" as app
+
+activate user
+user -> ui: Shortest network between clients and producers
+activate ui
+ui->controller:minimumDistGraph=getMinimumDistGraph()
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+deactivate organization
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+controller->alg:graph=kruskallAlgorithm(minimumDistGraph)
+activate alg
+|||
+deactivate alg
+deactivate controller
+ui->controller:totalDistance=getMinimumNetworkDistance(entityGraph)
+activate controller
+loop for each edge in mapGraphs
+controller->controller:totalDistance = totalDistance + edge.getWeight();
+end
+deactivate controller
+ui - -> user: Show networketwork
+deactivate ui
+deactivate user
+@enduml
+
+@startuml
+
+autonumber
+actor user as "System User"
+
+participant ":MinimumNetworkUi" as ui
+participant ":MinimumNetworkController" as controller
+participant "EntityStore" as store
+participant "Algorithms" as alg
+participant ":Organization" as organization
+participant ":App" as app
+
+activate user
+user -> ui: Shortest network between clients and producers
+activate ui
+ui->controller:minimumDistGraph=getMinimumDistGraph()
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+deactivate organization
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+controller->alg:graph=kruskallAlgorithm(minimumDistGraph)
+activate alg
+|||
+deactivate alg
+deactivate controller
+ui->controller:totalDistance=getMinimumNetworkDistance(entityGraph)
+activate controller
+loop for each edge in mapGraphs
+controller->controller:totalDistance = totalDistance + edge.getWeight();
+end
+deactivate controller
+ui - -> user: Show networketwork
+deactivate ui
+deactivate user
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

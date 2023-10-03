@@ -1,0 +1,75 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":ImportEntitiesUi" as ui
+participant ":ImportEntitiesController" as controller
+participant "Entity" as entity
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+
+
+
+
+activate user
+
+user -> ui : import entities data
+activate ui
+
+ui --> user : requests data (entities file, connections file)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui --> user : asks to confirm data
+deactivate ui
+user -> ui : confirms data
+activate ui
+ui -> controller : importEntityInfo(entitiesFile)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+deactivate organization
+controller -> controller :List<Entity> entityList = new ArrayList<>()
+loop while entitiesFile.hasNextLine()
+   alt (entityType == 'C')
+   controller -> controller : entityList.add(new Client(entityLocation, entityName)
+   end
+   alt (entityType == 'E')
+   controller -> controller : entityList.add(new Company(entityLocation, entityName)
+   end
+   alt (entityType == 'P')
+   controller -> controller : entityList.add(new Productor(entityLocation, entityName)
+   end
+end
+loop for each entity in entityList
+   controller -> controller : entitiesGraph.addVertex(entity)
+end
+deactivate controller
+
+ui -> controller : importEntitiesConnections(connectionsFile)
+activate controller
+loop while connectionsFile.hasNextLine()
+    controller -> controller : firstEntity = findEntityByLocationId(entityList, firstLocationId)
+    controller -> controller : secondEntity = findEntityByLocationId(entityList, secondLocationId)
+    controller -> controller : entitiesGraph.addEdge(firstEntity, secondEntity, distance)
+end
+deactivate controller
+ui --> user : informs operation success
+
+
+
+
+
+
+@enduml

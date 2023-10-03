@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests to find the nearest hub for each client
+activate ":System"
+":System" --> user : shows the user the nearest hub for each client
+deactivate ":System"
+
+@enduml

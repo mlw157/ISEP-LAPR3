@@ -1,0 +1,59 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":GenerateExpeditionsWithRestrictionsUi" as ui
+participant ":CalculateExpeditionsController" as controller
+participant "EntityStore" as store
+participant "Global ProductStore" as gstore
+participant "Productor" as prod
+participant "ExpeditionStore" as exstore
+
+
+activate user
+
+user -> ui : import entities data
+activate ui
+
+ui --> user : requests data (day and n productores agricolas)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui -> controller : calculateExpeditions(day, numberOfProducers)
+activate controller
+controller -> store : noRestrictionsExpeditionMap =getNoRestrictionsExpeditionMap()
+activate store
+deactivate store
+controller -> controller :deliverAllProductsAndOrdersToHubs()
+controller -> store : productorsList=getProductorsList()
+activate store
+deactivate store
+controller -> controller : deliverProductsToHub(productor)
+controller -> gstore: stockMap=getStockMap()
+activate gstore
+deactivate gstore
+controller ->prod: basketsMap:=getBasketsMap()
+activate prod
+deactivate prod
+controller ->controller : expedition=calculateDayOrders(i)
+controller -> gstore:orderMap=getOrderMap()
+activate gstore
+deactivate gstore
+controller -> gstore:stockMap=getStockMap()
+activate gstore
+deactivate gstore
+controller -> exstore:addExpedition(expedition, false)
+activate exstore
+deactivate exstore
+controller-> exstore:expeditionMap = getExpeditionMap().get(day)
+activate exstore
+deactivate exstore
+
+
+deactivate controller
+ui --> user : informs operation success
+
+@enduml

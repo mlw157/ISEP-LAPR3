@@ -1,0 +1,179 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":GenerateExpeditionsWithRestrictionsUi" as ui
+participant ":GenerateExpeditionsWithRestrictionsController" as controller
+participant ":FindNearestHubController" as contr2
+participant "Entity" as entity
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+participant ":MinimumDistanceRouteUi" as UI2
+
+activate user
+user -> ui : requests to generate expedition List for a given day with restriction
+activate ui
+ui --> user : requests day to show the expedition list
+deactivate ui
+user -> ui : inputs data
+activate ui
+ui --> user : requests amount of producers nearest to the hub
+deactivate ui
+user -> ui : inputs data
+activate ui
+ui -> controller : calculateExpeditions(day, numberOfProducers)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> controller : entityStore = organization.getEntityStore()
+deactivate organization
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+
+activate organization
+organization -> controller : expeditionStore = organization.getExpeditionStore()
+deactivate organization
+controller -> controller : expeditionStore.getExpeditionMap().clear();
+controller -> controller : deliverAllProductsAndOrdersToHubs(numberOfProducers);
+activate controller
+loop for (Entity entity : entityStore.getEntitiesGraph().vertices())
+    alt (entity instanceof Company || entity instanceof Client)
+        activate controller
+        controller -> contr2 : getNearestDistributionHub(entity)
+        activate contr2
+        contr2 -> controller : Pair<Company, Integer> nearestHub
+        deactivate contr2
+        controller -> controller : Company hub = nearestHub.first()
+        controller -> controller : TreeMap<Integer, List<Pair<Product, List<Pair<Double, Entity>>>>> orderMap = hub.getOrderMap();
+        controller -> controller : TreeMap<Integer, List<Pair<Product, Double>>> wantedProductsMap = hub.getWantedProductsMap()
+        controller -> controller : TreeMap<Integer, Basket> basketsMap = entity.getBasketsMap()
+        loop (Integer integer : basketsMap.keySet())
+            controller -> controller : basket = basketsMap.get(integer)
+            loop (Pair<Product, Double> pair : basket.getProducts())
+                controller -> controller : Product product = pair.first()
+                controller -> controller : Double quantity = pair.second()
+                alt (!orderMap.containsKey(integer))
+                    controller -> controller : orderMap.put(integer, new ArrayList<>());
+                end
+                 controller -> controller : List<Pair<Product, List<Pair<Double, Entity>>>> list = orderMap.get(integer)
+                 controller -> controller : boolean found = false
+                 loop (Pair<Product, List<Pair<Double, Entity>>> pair1 : list)
+                    alt (pair1.first().equals(product))
+                        controller -> controller : List<Pair<Double, Entity>> list1 = pair1.second()
+                        controller -> controller : list1.add(new Pair<>(quantity, entity))
+                        controller -> controller : found = true
+                    end
+                 end
+                 alt (!found)
+                    controller -> controller : List<Pair<Double, Entity>> list1 = new ArrayList<>()
+                    controller -> controller : list1.add(new Pair<>(quantity, entity))
+                    controller -> controller : list.add(new Pair<>(product, list1))
+                 end
+                 alt (!wantedProductsMap.containsKey(integer))
+                    controller -> controller : wantedProductsMap.put(integer, new ArrayList<>())
+                 end
+                 controller -> controller : List<Pair<Product, Double>> list1 = wantedProductsMap.get(integer)
+                 controller -> controller : boolean found1 = false
+                 loop (Pair<Product, Double> pair1 : list1)
+                    alt (pair1.first().equals(product))
+                        controller -> controller : pair1.setSecond(pair1.second() + quantity)
+                        controller -> controller : found1 = true
+                    end
+                 end
+                 alt (!found1)
+                    controller -> controller : list1.add(new Pair<>(product, quantity))
+                 end
+            end
+        end
+        deactivate controller
+    end
+    controller -> controller : generateHubStocks(numberOfProducers)
+    activate controller
+    controller -> controller : List<Company> companies = entityStore.getCompanyList()
+    loop (Company company : companies)
+        alt (company.isDistributionHub())
+            controller -> controller : List<Pair<Productor, Integer>> producers = getProducers(company, numberOfProducers);
+            loop (Pair<Productor,Integer> productor : producers)
+            controller -> controller : deliverProductsToHub(productor.first(), company)
+            activate controller
+                controller -> controller : TreeMap<Integer, List<Pair<Product, List<Pair<Double, Productor>>>>> stockMap = hub.getStockMap()
+                controller -> controller : TreeMap<Integer, List<Pair<Product, Double>>> wantedProductsMap = hub.getWantedProductsMap()
+                controller -> controller : TreeMap<Integer, Basket> basketsMap = productor.getBasketsMap()
+                loop (Integer integer : basketsMap.keySet())
+                    controller -> controller : Basket basket = basketsMap.get(integer)
+                    loop (Pair<Product, Double> pair : basket.getProducts())
+                        controller -> controller : Product product = pair.first()
+                        controller -> controller : Double quantity = pair.second()
+                        alt (!stockMap.containsKey(integer))
+                            controller -> controller : stockMap.put(integer, new ArrayList<>())
+                        end
+                    controller -> controller : List<Pair<Product, Double>> wantedProducts = wantedProductsMap.get(integer);
+                    alt (wantedProducts != null)
+                    loop (Pair<Product, Double> wantedProduct : wantedProducts)
+                    alt (wantedProduct.first().equals(product))
+                    alt (wantedProduct.second() >= quantity)
+                    controller -> controller : wantedProduct.setSecond(wantedProduct.second() - quantity)
+                    end
+                    alt (wantedProduct.second() == 0)
+                    controller -> controller : quantity = 0.0
+                    end
+                    controller -> controller : quantity = quantity - wantedProduct.second()
+                    controller -> controller : wantedProduct.setSecond(0.0)
+                    end
+                    end
+                    end
+                controller -> controller : List<Pair<Product, List<Pair<Double, Productor>>>> list = stockMap.get(integer);
+                controller -> controller : boolean found = false
+                loop (Pair<Product, List<Pair<Double, Productor>>> pair1 : list)
+                    alt (pair1.first().equals(product))
+                    controller -> controller : List<Pair<Double, Productor>> list1 = pair1.second()
+                    controller -> controller : list1.add(new Pair<>(quantity, productor))
+                    controller -> controller : found = true
+                    end
+                end
+                alt  (!found)
+                       controller -> controller : List<Pair<Double, Productor>> list1 = new ArrayList<>()
+                       controller -> controller : list1.add(new Pair<>(quantity, productor))
+                       controller -> controller : list.add(new Pair<>(product, list1))
+                end
+                controller -> controller : ArrayList<Pair<Product, Double>> basketList = productor.getBasketsMap().get(integer).getProducts();
+                loop (Pair<Product, Double> pair1 : basketList)
+                alt (pair1.first().equals(product))
+                controller -> controller : pair1.setSecond(pair.second() - quantity)
+                end
+                end
+                controller -> controller : HashMap<Company, HashMap<Product, Double>> originalHubStockList = expeditionStore.getOriginalHubStockList();
+                alt (!originalHubStockList.containsKey(hub))
+                alt (quantity != 0)
+                controller -> controller : productDoubleHashMap.put(product, quantity)
+                end
+                end
+            deactivate controller
+            end
+        end
+    end
+    deactivate controller
+   end
+   loop (int i = 1; i <= day; i++)
+        controller -> controller : Expedition expedition = calculateDayOrders(i)
+         controller -> controller : expeditionStore.addExpedition(expedition, true)
+   end
+deactivate controller
+controller -> controller : Expedition expedition = expeditionStore.getExpeditionMap().get(day)
+controller -> ui : result
+deactivate controller
+ui --> user : shows all deliveries
+deactivate ui
+user -> ui : request to see pickup route
+activate ui
+ui--> user : show pickup route
+@enduml

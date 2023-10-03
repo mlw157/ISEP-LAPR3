@@ -1,0 +1,128 @@
+@startuml
+
+package ui {
+class ImportIrrigationDataUi{
+-ImportIrrigationDataController controller
+-Scanner sc
++void run()
+}
+class IrrigationCalendarUi{
++void run()
+}
+class IrrigationCheckerUi{
+-IrrigationCheckerController irrigationCheckerController;
+-Scanner sc
++void run()
+}
+class IrrigationUi{
+-Scanner sc
++void run()
+}
+}
+
+package Controller {
+class ImportIrrigationDataController{
+-IrrigationControllerStore irrigationControllerStore
++void importIrrigationController(String file)
++void fillIrrigationCalendar()
++void importEntityConnections(String file)
++void addToDay(Date date, String dayType)
++void addThirtyDays()
+}
+class IrrigationCheckerController{
+-IrrigationControllerStore irrigationControllerStore
+-private IrrigationCalendar irrigationCalendar;
++Pair<Boolean, Integer> isPlotGettingIrrigated(Plot plot)
++int getIrrigationTimeLeft(Plot plot)
++List<Pair<Plot, Integer>> irrigatedPlots()
++Pair<Boolean, Pair<Plot, Integer>> isAnyPlotGettingIrrigated
+}
+
+}
+
+
+package Domain {
+
+package Store {
+class IrrigationControllerStore {
+-IrrigationController irrigationController
+-IrrigationCalendar irrigationCalendar
++IrrigationController getIrrigationController()
++void setIrrigationController(IrrigationController irrigationController)
++void setIrrigationCalendar(IrrigationCalendar irrigationCalendar)
+}
+}
+
+package Model {
+
+class IrrigationCalendar {
++TreeMap<Date, LinkedList<Pair<Plot, Hour>>> daysIrrigationMap
++TreeMap<java.util.Date, LinkedList<Pair<Plot, Hour>>> getDaysIrrigationMap()
+}
+
+class IrrigationController {
+-ArrayList<Hour> irrigationHours
+-HashMap<Plot, Pair<Integer, String>> irrigationValuesMap
++ArrayList<Hour> getIrrigationHours()
++HashMap<Plot, Pair<Integer, String>> getIrrigationValuesMap()
++void setIrrigationHours(ArrayList<Hour> irrigationHours)
++void setIrrigationValuesMap(HashMap<Plot, Pair<Integer, String>> irrigationValuesMap)
+}
+class Organization {
+-EntityStore entityStore
+-IrrigationControllerStore irrigationControllerStore
++EntityStore getEntityStore()
++IrrigationControllerStore getIrrigationControllerStore()
+}
+class Plot {
++String designation
++int area
++String culture
+}
+
+}
+
+}
+
+package Utils {
+
+class Pair {
+-F first
+-S second
++F getFirst()
++S getSecond()
+
+}
+
+class Hour {
+-int hours
+-int minutes
+-int seconds
+}
+
+class Date {
+-int day
+-int month
+-int year
+-HashMap<Integer,Integer> months
+}
+
+}
+
+
+IrrigationUi --> IrrigationCheckerUi
+IrrigationUi --> IrrigationCalendarUi
+IrrigationUi --> ImportIrrigationDataUi
+IrrigationCheckerUi --> IrrigationCheckerController
+IrrigationCalendarUi --> IrrigationCalendar
+ImportIrrigationDataUi --> ImportIrrigationDataController
+ImportIrrigationDataController --> IrrigationControllerStore
+ImportIrrigationDataController --> IrrigationCalendar
+IrrigationCalendar --> Date
+IrrigationCalendar --> Hour
+IrrigationCalendar --> Plot
+IrrigationControllerStore -> IrrigationController : contains >
+Organization --> IrrigationControllerStore : contains >
+
+
+@enduml

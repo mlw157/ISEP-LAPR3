@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor user as "System User"
+
+participant ":MinimumNetworkUi" as ui
+participant ":MinimumNetworkController" as controller
+participant "EntityStore" as store
+participant "Algorithms" as alg
+participant ":Organization" as organization
+participant ":App" as app
+
+activate user
+user -> ui: Shortest network between clients and producers
+activate ui
+ui->controller:minimumDistGraph=getMinimumDistGraph()
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+deactivate organization
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+controller->alg:graph=kruskallAlgorithm(minimumDistGraph)
+activate alg
+|||
+deactivate alg
+deactivate controller
+ui->controller:totalDistance=getMinimumNetworkDistance(entityGraph)
+activate controller
+loop for each edge in mapGraphs
+controller->controller:totalDistance = totalDistance + edge.getWeight();
+end
+deactivate controller
+ui --> user: Show networketwork
+deactivate ui
+deactivate user
+@enduml

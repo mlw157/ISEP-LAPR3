@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests to generate an expedition list
+activate ":System"
+":System" --> user : requests data (day)
+deactivate ":System"
+user -> ":System" : inputs data
+activate ":System"
+":System" --> user : informs success/failure message
+deactivate ":System"
+
+
+@enduml

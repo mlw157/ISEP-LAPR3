@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="283px" preserveAspectRatio="none" style="width:518px;height:283px;background:#FFFFFF;" version="1.1" viewBox="0 0 518 283" width="518px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="98.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="42.5" y="93.6211"/><rect fill="#FFFFFF" height="65.873" style="stroke:#181818;stroke-width:1.0;" width="10" x="475.5" y="116.9121"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="47" x2="47" y1="83.6211" y2="200.7852"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="480.5" x2="480.5" y1="83.6211" y2="200.7852"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="5" y="80.1074">System User</text><ellipse cx="47.5" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M47.5,21.5 L47.5,48.5 M34.5,29.5 L60.5,29.5 M47.5,48.5 L34.5,63.5 M47.5,48.5 L60.5,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="5" y="214.8926">System User</text><ellipse cx="47.5" cy="226.9063" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M47.5,234.9063 L47.5,261.9063 M34.5,242.9063 L60.5,242.9063 M47.5,261.9063 L34.5,276.9063 M47.5,261.9063 L60.5,276.9063 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="448.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="455.5" y="72.1074">:System</text><rect fill="#E2E2F0" height="32.6211" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="448.5" y="199.7852"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="455.5" y="221.8926">:System</text><rect fill="#FFFFFF" height="98.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="42.5" y="93.6211"/><rect fill="#FFFFFF" height="65.873" style="stroke:#181818;stroke-width:1.0;" width="10" x="475.5" y="116.9121"/><polygon fill="#181818" points="463.5,112.9121,473.5,116.9121,463.5,120.9121,467.5,116.9121" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="52.5" x2="469.5" y1="116.9121" y2="116.9121"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="59.5" y="111.6494">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="294" x="70.5" y="111.6494">requests the verification of connectivity of the graph</text><polygon fill="#181818" points="63.5,178.7852,53.5,182.7852,63.5,186.7852,59.5,182.7852" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="57.5" x2="479.5" y1="182.7852" y2="182.7852"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="69.5" y="160.2314">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="301" x="80.5" y="142.9404">Informs the user if the graph is connected or not and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="84.5" y="160.2314">shows the minimum number of connections needed</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="384" x="84.5" y="177.5225">so that, in this network, any client/producer can contact any other.</text><!--MD5=[fdb408a3163eb4f9b2f60e0830b5f3a4]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests the verification of connectivity of the graph
+activate ":System"
+":System" - -> user : Informs the user if the graph is connected or not and \n shows the minimum number of connections needed \n so that, in this network, any client/producer can contact any other.
+deactivate ":System"
+
+@enduml
+
+@startuml
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests the verification of connectivity of the graph
+activate ":System"
+":System" - -> user : Informs the user if the graph is connected or not and \n shows the minimum number of connections needed \n so that, in this network, any client/producer can contact any other.
+deactivate ":System"
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,1 @@
+Sensor velocidade_vento();

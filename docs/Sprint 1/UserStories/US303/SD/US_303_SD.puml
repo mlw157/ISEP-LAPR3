@@ -1,0 +1,81 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":DefineHubsUi" as ui
+participant ":DefineHubsController" as controller
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+participant ":Algoritms" as Alg
+participant ":Organization" as organization
+
+
+
+activate user
+
+user -> ui : requests to define hubs
+activate ui
+"ui" --> user : requests data (number of hubs to define)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui -> controller : defineHubs(numberOfHubs)
+activate controller
+controller -> controller : getCompanyAverageDistanceList()
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+deactivate organization
+activate store
+store -> controller : MapGraph = entityStore.getEntitiesGraph()
+deactivate store
+controller -> controller : defineHubs(numberOfHubs)
+controller -> controller : getCompanyAverageDistanceList()
+activate controller
+controller -> controller : List<Pair<Company, Integer>> companyAverageDistanceList = new ArrayList<>()
+loop for (Entity entity : entityStore.getEntitiesGraph().vertices())
+    alt (entity instanceof Company)
+    controller -> controller : getAverageProximityDistanceOfCompany((Company) entity)
+    activate controller
+    controller -> controller : ArrayList<LinkedList<Entity>> paths = new ArrayList<>()
+    controller -> controller : ArrayList<Integer> pathsDistances = new ArrayList<>()
+    controller -> Alg : shortestPaths(entityGraph, company, Integer::compareTo, Integer::sum,0, paths, pathsDistances)
+    activate Alg
+    deactivate Alg
+        loop for (int i = 0; i < paths.size(); i++)
+            alt (!(paths.get(i).getLast().equals(company)))
+            controller -> controller : totalDistance += pathsDistances.get(i)
+            end
+        end loop
+    controller -> controller : averageDistance
+    deactivate controller
+    controller -> controller : companyAverageDistanceList.add(new Pair<>((Company) entity, averageDistance))
+    end
+end loop
+controller -> controller : companyAverageDistanceList
+deactivate controller
+controller -> controller : Collections.sort(companyAverageDistanceList, Comparator.comparing(p -> p.second()))
+alt (numberOfHubs > companyAverageDistanceList.size())
+    controller -> ui : companyAverageDistanceList.size()
+end
+
+loop (int i = 0; i < numberOfHubs; i++)
+    controller -> controller : companyAverageDistanceList.get(i).first().setDistributionHub(true)
+    controller -> ui : result
+end loop
+deactivate ui
+ui --> user : informs operation success
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests to import data
+activate ":System"
+":System" --> user : requests data (irrigation plan file)
+deactivate ":System"
+
+user -> ":System" : inputs data
+activate ":System"
+":System" --> user : irrigation calendar imported
+deactivate ":System"
+user -> ":System" : requests to check if a plot is being irrigated
+activate ":System"
+":System" --> user : requests hour and date to check
+deactivate ":System"
+user -> ":System" : inputs hour and date
+activate ":System"
+":System" --> user : returns the plot being irrigated and the remaining minutes left
+
+@enduml

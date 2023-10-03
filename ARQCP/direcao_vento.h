@@ -1,0 +1,1 @@
+Sensor direcao_vento();

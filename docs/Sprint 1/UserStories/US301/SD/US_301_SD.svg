@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="633.18px" preserveAspectRatio="none" style="width:1044px;height:633px;background:#FFFFFF;" version="1.1" viewBox="0 0 1044 633" width="1044.32px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="523.7517" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="25.925" y="55.2908"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="206.485" y="67.8101"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="206.485" y="102.6087"/><rect fill="#FFFFFF" height="441.6352" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="206.485" y="137.4073"/><rect fill="#FFFFFF" height="294.2202" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="388.265" y="154.8066"/><rect fill="#FFFFFF" height="99.4872" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="388.265" y="461.546"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="698.755" y="207.0045"/><rect fill="#FFFFFF" height="34.7986" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="871.995" y="189.6052"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="1024.495" y="172.2059"/><rect fill="none" height="141.9251" style="stroke:#000000;stroke-width:0.915;" width="294.325" x="328.79" y="258.883"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="268.095" x="334.89" y="273.2323"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="281.515" x="334.89" y="317.1809"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="282.125" x="334.89" y="361.1295"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="191.845" x="334.89" y="409.3481"/><rect fill="none" height="86.0672" style="stroke:#000000;stroke-width:0.915;" width="320.555" x="334.89" y="470.696"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="28.67" x2="28.67" y1="49.1908" y2="584.5325"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="209.23" x2="209.23" y1="49.1908" y2="584.5325"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="391.01" x2="391.01" y1="49.1908" y2="584.5325"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="655.14" x2="655.14" y1="49.1908" y2="584.5325"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="701.5" x2="701.5" y1="49.1908" y2="584.5325"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="875.045" x2="875.045" y1="49.1908" y2="584.5325"/><line style="stroke:#181818;stroke-width:0.305;stroke-dasharray:5.0,5.0;" x1="1027.24" x2="1027.24" y1="49.1908" y2="584.5325"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="48.19" x="3.05" y="47.381">System User</text><ellipse cx="28.975" cy="8.235" fill="#E2E2F0" rx="4.88" ry="4.88" style="stroke:#181818;stroke-width:0.305;"/><path d="M28.975,13.115 L28.975,29.585 M21.045,17.995 L36.905,17.995 M28.975,29.585 L21.045,38.735 M28.975,29.585 L36.905,38.735 " fill="none" style="stroke:#181818;stroke-width:0.305;"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="48.19" x="3.05" y="591.6535">System User</text><ellipse cx="28.975" cy="598.6483" fill="#E2E2F0" rx="4.88" ry="4.88" style="stroke:#181818;stroke-width:0.305;"/><path d="M28.975,603.5283 L28.975,619.9983 M21.045,608.4083 L36.905,608.4083 M28.975,619.9983 L21.045,629.1483 M28.975,619.9983 L36.905,629.1483 " fill="none" style="stroke:#181818;stroke-width:0.305;"/><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="70.15" x="174.46" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="61.61" x="178.73" y="42.501">:ImportEntitiesUi</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="70.15" x="174.46" y="583.9225"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="61.61" x="178.73" y="595.9235">:ImportEntitiesUi</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="100.65" x="340.99" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="92.11" x="345.26" y="42.501">:ImportEntitiesController</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="100.65" x="340.99" y="583.9225"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="92.11" x="345.26" y="595.9235">:ImportEntitiesController</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="29.89" x="640.5" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="21.35" x="644.77" y="42.501">Entity</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="29.89" x="640.5" y="583.9225"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="21.35" x="644.77" y="595.9235">Entity</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="50.63" x="676.49" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="42.09" x="680.76" y="42.501">EntityStore</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="50.63" x="676.49" y="583.9225"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="42.09" x="680.76" y="595.9235">EntityStore</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="59.78" x="845.155" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="51.24" x="849.425" y="42.501">:Organization</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="59.78" x="845.155" y="583.9225"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="51.24" x="849.425" y="595.9235">:Organization</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="26.23" x="1014.43" y="30.5"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="17.69" x="1018.7" y="42.501">:App</text><rect fill="#E2E2F0" height="18.0808" rx="1.525" ry="1.525" style="stroke:#181818;stroke-width:0.305;" width="26.23" x="1014.43" y="583.9225"/><text fill="#000000" font-family="sans-serif" font-size="8.54" lengthAdjust="spacing" textLength="17.69" x="1018.7" y="595.9235">:App</text><rect fill="#FFFFFF" height="523.7517" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="25.925" y="55.2908"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="206.485" y="67.8101"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="206.485" y="102.6087"/><rect fill="#FFFFFF" height="441.6352" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="206.485" y="137.4073"/><rect fill="#FFFFFF" height="294.2202" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="388.265" y="154.8066"/><rect fill="#FFFFFF" height="99.4872" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="388.265" y="461.546"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="698.755" y="207.0045"/><rect fill="#FFFFFF" height="34.7986" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="871.995" y="189.6052"/><rect fill="#FFFFFF" height="17.3993" style="stroke:#181818;stroke-width:0.61;" width="6.1" x="1024.495" y="172.2059"/><polygon fill="#181818" points="199.165,65.3701,205.265,67.8101,199.165,70.2501,201.605,67.8101" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="32.025" x2="202.825" y1="67.8101" y2="67.8101"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="36.295" y="64.9096">1</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="67.71" x="43.005" y="64.9096">import entities data</text><polygon fill="#181818" points="38.735,82.7694,32.635,85.2094,38.735,87.6494,36.295,85.2094" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;stroke-dasharray:2.0,2.0;" x1="35.075" x2="208.925" y1="85.2094" y2="85.2094"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="42.395" y="82.3089">2</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="153.11" x="49.105" y="82.3089">requests data (entities file, connections file)</text><polygon fill="#181818" points="199.165,100.1687,205.265,102.6087,199.165,105.0487,201.605,102.6087" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="32.025" x2="202.825" y1="102.6087" y2="102.6087"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="36.295" y="99.7082">3</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="76.25" x="43.005" y="99.7082">inputs requested data</text><polygon fill="#181818" points="38.735,117.568,32.635,120.008,38.735,122.448,36.295,120.008" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;stroke-dasharray:2.0,2.0;" x1="35.075" x2="208.925" y1="120.008" y2="120.008"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="42.395" y="117.1075">4</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="71.98" x="49.105" y="117.1075">asks to confirm data</text><polygon fill="#181818" points="199.165,134.9673,205.265,137.4073,199.165,139.8473,201.605,137.4073" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="32.025" x2="202.825" y1="137.4073" y2="137.4073"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="36.295" y="134.5068">5</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="47.58" x="43.005" y="134.5068">confirms data</text><polygon fill="#181818" points="380.945,152.3666,387.045,154.8066,380.945,157.2466,383.385,154.8066" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="212.585" x2="384.605" y1="154.8066" y2="154.8066"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="216.855" y="151.9061">6</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="98.21" x="223.565" y="151.9061">importEntityInfo(entitiesFile)</text><polygon fill="#181818" points="1017.175,169.7659,1023.275,172.2059,1017.175,174.6459,1019.615,172.2059" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="1020.835" y1="172.2059" y2="172.2059"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="398.635" y="169.3054">7</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="84.79" x="405.345" y="169.3054">app = App.getInstance()</text><polygon fill="#181818" points="884.805,187.1652,878.705,189.6052,884.805,192.0452,882.365,189.6052" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="881.145" x2="1026.935" y1="189.6052" y2="189.6052"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="888.465" y="186.7047">8</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="128.1" x="895.175" y="186.7047">organization = app.getOrganization()</text><polygon fill="#181818" points="711.565,204.5645,705.465,207.0045,711.565,209.4445,709.125,207.0045" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="707.905" x2="871.385" y1="207.0045" y2="207.0045"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="4.27" x="715.225" y="204.104">9</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="148.84" x="721.935" y="204.104">entityStore = organization.getEntityStore()</text><polygon fill="#181818" points="401.075,221.9638,394.975,224.4038,401.075,226.8438,398.635,224.4038" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="397.415" x2="701.195" y1="224.4038" y2="224.4038"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="404.735" y="221.5033">10</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="161.65" x="415.715" y="221.5033">entitiesGraph = entityStore.getEntitiesGraph()</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="241.803" y2="241.803"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="241.803" y2="249.733"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="249.733" y2="249.733"/><polygon fill="#181818" points="401.075,247.293,394.975,249.733,401.075,252.173,398.635,249.733" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="238.9026">11</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="150.67" x="409.615" y="238.9026">List&lt;Entity&gt; entityList = new ArrayList&lt;&gt;()</text><path d="M328.79,258.883 L373.32,258.883 L373.32,262.8623 L367.22,268.9623 L328.79,268.9623 L328.79,258.883 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.915;"/><rect fill="none" height="141.9251" style="stroke:#000000;stroke-width:0.915;" width="294.325" x="328.79" y="258.883"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="17.08" x="337.94" y="266.6719">loop</text><text fill="#000000" font-family="sans-serif" font-size="6.71" font-weight="bold" lengthAdjust="spacing" textLength="110.41" x="382.47" y="266.1774">[while entitiesFile.hasNextLine()]</text><path d="M334.89,273.2323 L372.1,273.2323 L372.1,277.2116 L366,283.3116 L334.89,283.3116 L334.89,273.2323 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.915;"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="268.095" x="334.89" y="273.2323"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="9.76" x="344.04" y="281.0212">alt</text><text fill="#000000" font-family="sans-serif" font-size="6.71" font-weight="bold" lengthAdjust="spacing" textLength="64.66" x="381.25" y="280.5267">[(entityType == 'C')]</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="295.8309" y2="295.8309"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="295.8309" y2="303.7609"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="303.7609" y2="303.7609"/><polygon fill="#181818" points="401.075,301.3209,394.975,303.7609,401.075,306.2009,398.635,303.7609" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="292.9305">12</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="186.05" x="409.615" y="292.9305">entityList.add(new Client(entityLocation, entityName)</text><path d="M334.89,317.1809 L372.1,317.1809 L372.1,321.1602 L366,327.2602 L334.89,327.2602 L334.89,317.1809 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.915;"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="281.515" x="334.89" y="317.1809"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="9.76" x="344.04" y="324.9698">alt</text><text fill="#000000" font-family="sans-serif" font-size="6.71" font-weight="bold" lengthAdjust="spacing" textLength="63.44" x="381.25" y="324.4753">[(entityType == 'E')]</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="339.7795" y2="339.7795"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="339.7795" y2="347.7095"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="347.7095" y2="347.7095"/><polygon fill="#181818" points="401.075,345.2695,394.975,347.7095,401.075,350.1495,398.635,347.7095" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="336.8791">13</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="199.47" x="409.615" y="336.8791">entityList.add(new Company(entityLocation, entityName)</text><path d="M334.89,361.1295 L372.1,361.1295 L372.1,365.1088 L366,371.2088 L334.89,371.2088 L334.89,361.1295 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.915;"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="282.125" x="334.89" y="361.1295"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="9.76" x="344.04" y="368.9183">alt</text><text fill="#000000" font-family="sans-serif" font-size="6.71" font-weight="bold" lengthAdjust="spacing" textLength="64.05" x="381.25" y="368.4239">[(entityType == 'P')]</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="383.7281" y2="383.7281"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="383.7281" y2="391.6581"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="391.6581" y2="391.6581"/><polygon fill="#181818" points="401.075,389.2181,394.975,391.6581,401.075,394.0981,398.635,391.6581" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="380.8276">14</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="200.08" x="409.615" y="380.8276">entityList.add(new Productor(entityLocation, entityName)</text><path d="M334.89,409.3481 L379.42,409.3481 L379.42,413.3274 L373.32,419.4274 L334.89,419.4274 L334.89,409.3481 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.915;"/><rect fill="none" height="35.4086" style="stroke:#000000;stroke-width:0.915;" width="191.845" x="334.89" y="409.3481"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="17.08" x="344.04" y="417.1369">loop</text><text fill="#000000" font-family="sans-serif" font-size="6.71" font-weight="bold" lengthAdjust="spacing" textLength="94.55" x="388.57" y="416.6425">[for each entity in entityList]</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="431.9467" y2="431.9467"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="431.9467" y2="439.8767"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="439.8767" y2="439.8767"/><polygon fill="#181818" points="401.075,437.4367,394.975,439.8767,401.075,442.3167,398.635,439.8767" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="429.0462">15</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="109.8" x="409.615" y="429.0462">entitiesGraph.addVertex(entity)</text><polygon fill="#181818" points="380.945,459.106,387.045,461.546,380.945,463.986,383.385,461.546" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;" x1="212.585" x2="384.605" y1="461.546" y2="461.546"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="216.855" y="458.6455">16</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="153.11" x="227.835" y="458.6455">importEntitiesConnections(connectionsFile)</text><path d="M334.89,470.696 L379.42,470.696 L379.42,474.6753 L373.32,480.7753 L334.89,480.7753 L334.89,470.696 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.915;"/><rect fill="none" height="86.0672" style="stroke:#000000;stroke-width:0.915;" width="320.555" x="334.89" y="470.696"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="17.08" x="344.04" y="478.4848">loop</text><text fill="#000000" font-family="sans-serif" font-size="6.71" font-weight="bold" lengthAdjust="spacing" textLength="126.27" x="388.57" y="477.9904">[while connectionsFile.hasNextLine()]</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="493.2946" y2="493.2946"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="493.2946" y2="501.2246"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="501.2246" y2="501.2246"/><polygon fill="#181818" points="401.075,498.7846,394.975,501.2246,401.075,503.6646,398.635,501.2246" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="490.3941">17</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="212.89" x="409.615" y="490.3941">firstEntity = findEntityByLocationId(entityList, firstLocationId)</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="518.6239" y2="518.6239"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="518.6239" y2="526.5539"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="526.5539" y2="526.5539"/><polygon fill="#181818" points="401.075,524.1139,394.975,526.5539,401.075,528.9939,398.635,526.5539" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="515.7234">18</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="238.51" x="409.615" y="515.7234">secondEntity = findEntityByLocationId(entityList, secondLocationId)</text><line style="stroke:#181818;stroke-width:0.61;" x1="394.365" x2="419.985" y1="543.9532" y2="543.9532"/><line style="stroke:#181818;stroke-width:0.61;" x1="419.985" x2="419.985" y1="543.9532" y2="551.8832"/><line style="stroke:#181818;stroke-width:0.61;" x1="394.975" x2="419.985" y1="551.8832" y2="551.8832"/><polygon fill="#181818" points="401.075,549.4432,394.975,551.8832,401.075,554.3232,398.635,551.8832" style="stroke:#181818;stroke-width:0.61;"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="398.635" y="541.0527">19</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="204.96" x="409.615" y="541.0527">entitiesGraph.addEdge(firstEntity, secondEntity, distance)</text><polygon fill="#181818" points="38.735,571.1125,32.635,573.5525,38.735,575.9925,36.295,573.5525" style="stroke:#181818;stroke-width:0.61;"/><line style="stroke:#181818;stroke-width:0.61;stroke-dasharray:2.0,2.0;" x1="35.075" x2="205.875" y1="573.5525" y2="573.5525"/><text fill="#000000" font-family="sans-serif" font-size="7.93" font-weight="bold" lengthAdjust="spacing" textLength="8.54" x="42.395" y="570.652">20</text><text fill="#000000" font-family="sans-serif" font-size="7.93" lengthAdjust="spacing" textLength="92.72" x="53.375" y="570.652">informs operation success</text><!--MD5=[f795889591f10eec232652670fbdb8c5]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor user as "System User"
+
+participant ":ImportEntitiesUi" as ui
+participant ":ImportEntitiesController" as controller
+participant "Entity" as entity
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+
+
+
+
+activate user
+
+user -> ui : import entities data
+activate ui
+
+ui - -> user : requests data (entities file, connections file)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui - -> user : asks to confirm data
+deactivate ui
+user -> ui : confirms data
+activate ui
+ui -> controller : importEntityInfo(entitiesFile)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+deactivate organization
+controller -> controller :List<Entity> entityList = new ArrayList<>()
+loop while entitiesFile.hasNextLine()
+   alt (entityType == 'C')
+   controller -> controller : entityList.add(new Client(entityLocation, entityName)
+   end
+   alt (entityType == 'E')
+   controller -> controller : entityList.add(new Company(entityLocation, entityName)
+   end
+   alt (entityType == 'P')
+   controller -> controller : entityList.add(new Productor(entityLocation, entityName)
+   end
+end
+loop for each entity in entityList
+   controller -> controller : entitiesGraph.addVertex(entity)
+end
+deactivate controller
+
+ui -> controller : importEntitiesConnections(connectionsFile)
+activate controller
+loop while connectionsFile.hasNextLine()
+    controller -> controller : firstEntity = findEntityByLocationId(entityList, firstLocationId)
+    controller -> controller : secondEntity = findEntityByLocationId(entityList, secondLocationId)
+    controller -> controller : entitiesGraph.addEdge(firstEntity, secondEntity, distance)
+end
+deactivate controller
+ui - -> user : informs operation success
+
+
+
+
+
+
+@enduml
+
+@startuml
+
+autonumber
+
+actor user as "System User"
+
+participant ":ImportEntitiesUi" as ui
+participant ":ImportEntitiesController" as controller
+participant "Entity" as entity
+participant "EntityStore" as store
+participant ":Organization" as organization
+participant ":App" as app
+
+
+
+
+activate user
+
+user -> ui : import entities data
+activate ui
+
+ui - -> user : requests data (entities file, connections file)
+deactivate ui
+user -> ui : inputs requested data
+activate ui
+ui - -> user : asks to confirm data
+deactivate ui
+user -> ui : confirms data
+activate ui
+ui -> controller : importEntityInfo(entitiesFile)
+activate controller
+controller -> app : app = App.getInstance()
+activate app
+app -> organization : organization = app.getOrganization()
+deactivate app
+activate organization
+organization -> store : entityStore = organization.getEntityStore()
+activate store
+store -> controller : entitiesGraph = entityStore.getEntitiesGraph()
+deactivate store
+deactivate organization
+controller -> controller :List<Entity> entityList = new ArrayList<>()
+loop while entitiesFile.hasNextLine()
+   alt (entityType == 'C')
+   controller -> controller : entityList.add(new Client(entityLocation, entityName)
+   end
+   alt (entityType == 'E')
+   controller -> controller : entityList.add(new Company(entityLocation, entityName)
+   end
+   alt (entityType == 'P')
+   controller -> controller : entityList.add(new Productor(entityLocation, entityName)
+   end
+end
+loop for each entity in entityList
+   controller -> controller : entitiesGraph.addVertex(entity)
+end
+deactivate controller
+
+ui -> controller : importEntitiesConnections(connectionsFile)
+activate controller
+loop while connectionsFile.hasNextLine()
+    controller -> controller : firstEntity = findEntityByLocationId(entityList, firstLocationId)
+    controller -> controller : secondEntity = findEntityByLocationId(entityList, secondLocationId)
+    controller -> controller : entitiesGraph.addEdge(firstEntity, secondEntity, distance)
+end
+deactivate controller
+ui - -> user : informs operation success
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

@@ -1,0 +1,25 @@
+@startuml
+
+autonumber
+
+actor "System User" as user
+
+activate user
+user -> ":System" : requests to generate expedition List for a given day with restriction
+activate ":System"
+":System" --> user : requests day to show the expedition list
+deactivate ":System"
+user -> ":System" : inputs data
+activate ":System"
+":System" --> user : requests amount of producers nearest to the hub
+deactivate ":System"
+user -> ":System" : inputs data
+activate ":System"
+":System" --> user : shows all deliveries
+deactivate ":System"
+user -> ":System" : request to see pickup route
+activate ":System"
+":System" --> user : show pickup route
+
+
+@enduml

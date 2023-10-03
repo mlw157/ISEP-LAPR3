@@ -1,0 +1,455 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package ui {
+class DefineHubsUi{
+-DefineHubsController controller
+-Scanner sc
++void run()
+}
+class IrrigationUi{
+-Scanner sc
++void run()
+}
+class IrrigationCheckerUi{
+-IrrigationCheckerController irrigationCheckerController;
+-Scanner sc
++void run()
+}
+class IrrigationCalendarUi{
++void run()
+}
+class ImportIrrigationDataUi{
+-ImportIrrigationDataController controller
+-Scanner sc
++void run()
+}
+class ImportEntitiesUi{
+-ImportEntitiesController controller
+-Scanner sc
++void run()
+}
+class FindNearestHubUi{
+-FindNearestHubController controller
+-Scanner sc
++void run()
+}
+class VerifyConnectivityUi{
+-VerifyConnectivityController verifyConnectivityController
+-Scanner sc
++void run()
+}
+class MainMenuUi{
+-Scanner sc
++void main(String[] args)
+}
+class MinimumNetworkUi{
+-MinimumNetworkController minimumNetworkController
+-Scanner sc
++void run()
+}
+class ExpeditionStatsUi{
+-ExpeditionStatsController expeditionStatsController
+-CalculateExpeditionsController calculateExpeditionsController
+-Scanner sc
++void run()
+}
+class GenerateExpeditionsWithoutRestrictionsUi{
+-CalculateExpeditionsController calculateExpeditionsController
+-CalculateExpeditionsNoRestrictionsController calculateExpeditionsNoRestrictionsController
+-Scanner sc
++void run()
+}
+class GenerateExpeditionsWithRestrictionsUi{
+-CalculateExpeditionsController calculateExpeditionsController
+-Scanner sc
++void run()
+}
+class ImportBasketsUi{
+-ImportBasketsController controller
+-Scanner sc
++void run()
+}
+class MinimumDistanceRouteUi{
+-MinimumDistanceRouteController minimumDistanceRouteController
+-Scanner sc
++void run()
+}
+}
+package Controller {
+class DefineHubsController{
+-EntityStore entityStore
++int getAverageProximityDistanceOfCompany(Company company)
++List<Pair<Company, Integer>> getCompanyAverageDistanceList()
++void defineHubs(int numberOfHubs)
+}
+class IrrigationCheckerController{
+-IrrigationControllerStore irrigationControllerStore
+-private IrrigationCalendar irrigationCalendar;
++Pair<Boolean, Integer> isPlotGettingIrrigated(Plot plot)
++int getIrrigationTimeLeft(Plot plot)
++List<Pair<Plot, Integer>> irrigatedPlots()
++Pair<Boolean, Pair<Plot, Integer>> isAnyPlotGettingIrrigated
+}
+class ImportIrrigationDataController{
+-IrrigationControllerStore irrigationControllerStore
++void importIrrigationController(String file)
++void fillIrrigationCalendar()
++void importEntityConnections(String file)
++void addToDay(Date date, String dayType)
++void addThirtyDays()
+}
+class ImportEntitiesController{
+-EntityStore entityStore
++void importEntityInfo(String file)
++Entity findEntityByLocationId(List<Entity> entityList, String locationId)
++void importEntityConnections(String file)
+}
+class FindNearestHubController{
+-EntityStore entityStore
++List<Pair<Company, Integer>> getEntityReachableDistributionHubs(Entity entity)
++Pair<Company, Integer> getNearestDistributionHub(Entity entity)
++List<Pair<Entity, Pair<Company, Integer>>> getNearestDistributionHubForEachClient()
+}
+class VerifyConnectivityController{
+-EntityStore entityStore
+-MapGraph <Entity,Integer> mapGraph
++boolean isConnected()
++MapGraph<Entity, Integer> IgnoreWeights()
++int minimumNumberOfConnections()
+}
+class MinimumNetworkController{
+-EntityStore entityStore
+-MapGraph <Entity,Integer> mapGraph
++MapGraph<Entity, Integer> getMinimumDistGraph()
++int getMinimumNetworkDistance(MapGraph<Entity,Integer> mapGraph)
+}
+class CalculateExpeditionsController{
+-EntityStore entityStore
+-ExpeditionStore expeditionStore
+-FindNearestHubController findNearestHubController
++void calculateExpeditions(int day, int numberOfProducers)
++void deliverAllProductsAndOrdersToHubs(int numberOfProducers)
++void deliverProductsToHub(Productor productor, Company hub)
++void generateHubOrder(Entity entity)
++Expedition calculateDayOrders(int day)
++void generateHubStocks(int numberOfProducers)
++List<Pair<Productor, Integer>> getHubReachableProducers(Entity entity)
++List<Pair<Productor, Integer>> getProducers(Entity entity, int numberOfProducers)
+}
+class CalculateExpeditionsNoRestrictionsController{
+-EntityStore entityStore
+-ExpeditionStore expeditionStore
+-FindNearestHubController findNearestHubController
+-GlobalProductStore globalProductStore
++void calculateExpeditions(int day)
++void deliverProductsToHub(Productor productor)
++void generateHubOrder(Entity entity)
++void deliverAllProductsAndOrdersToHubs()
++Expedition calculateDayOrders(int day)
+}
+class ExpeditionStatsController{
+-EntityStore entityStore
+-ExpeditionStore expeditionStore
++void basketDayStats(Expedition expedition, int day)
++void clientStats(TreeMap<Integer, Expedition> expeditions)
++void productorStats(TreeMap<Integer, Expedition> expeditions)
++void hubStats(TreeMap<Integer, Expedition> expeditions)
+}
+class ImportBasketsController{
+-EntityStore entityStore
++void importBaskets(String file)
+}
+class MinimumDistanceRouteController{
+-EntityStore entityStore
+-ExpeditionStore expeditionStore
+-CalculateExpeditionsController calculateExpeditionsController
++void calculateMinimumDistanceRoute(Expedition expedition)
++Pair<List<Integer>, Pair<List<LinkedList<Entity>>, Integer>> calculateHubsMinimumRoute(Productor startPoint, Expedition expedition)
++Pair<Company, Pair<LinkedList<Entity>, Integer>> calculateNextHub(Company hub, List<Company> hubs)
++Pair<List<Integer>, Pair<List<LinkedList<Entity>>, Integer>> calculateProductorsMinimumRoute()
++Pair<Productor, Pair<LinkedList<Entity>, Integer>> calculateNextProductor(Productor productor, List<Productor> productors)
+}
+}
+
+package Domain {
+
+package Store {
+class EntityStore {
+-MapGraph<Entity, Integer> entitiesGraph
++MapGraph<Entity, Integer> getEntitiesGraph()
++void setEntitiesGraph(MapGraph<Entity, Integer> entitiesGraph)
+}
+class IrrigationControllerStore {
+-IrrigationController irrigationController
+-IrrigationCalendar irrigationCalendar
++IrrigationController getIrrigationController()
++void setIrrigationController(IrrigationController irrigationController)
++void setIrrigationCalendar(IrrigationCalendar irrigationCalendar)
+}
+class ExpeditionStore{
+-TreeMap<Integer, Expedition> noRestrictionsExpeditionMap = new TreeMap<>()
+-TreeMap<Integer, Expedition> expeditionMap = new TreeMap<>()
++HashMap<Company, HashMap<Product, Double>> getOriginalHubStockList()
++TreeMap<Integer, Expedition> getNoRestrictionsExpeditionMap()
++TreeMap<Integer, Expedition> getExpeditionMap()
++void setNoRestrictionsExpeditionMap(TreeMap<Integer, Expedition> noRestrictionsExpeditionMap)
++void setExpeditionMap(TreeMap<Integer, Expedition> expeditionMap)
++void addExpedition(Expedition expedition, boolean restrictions)
+}
+}
+package Model {
+class IrrigationCalendar {
++TreeMap<Date, LinkedList<Pair<Plot, Hour>>> daysIrrigationMap
++TreeMap<java.util.Date, LinkedList<Pair<Plot, Hour>>> getDaysIrrigationMap()
+}
+
+class IrrigationController {
+-ArrayList<Hour> irrigationHours
+-HashMap<Plot, Pair<Integer, String>> irrigationValuesMap
++ArrayList<Hour> getIrrigationHours()
++HashMap<Plot, Pair<Integer, String>> getIrrigationValuesMap()
++void setIrrigationHours(ArrayList<Hour> irrigationHours)
++void setIrrigationValuesMap(HashMap<Plot, Pair<Integer, String>> irrigationValuesMap)
+}
+class Plot {
++String designation
++int area
++String culture
+}
+abstract class Entity {
++Location location
++String name
++Location getLocation()
++String getName()
++String toString()
+
+}
+
+class Client extends Entity {
+}
+
+class Company extends Entity {
+}
+
+class Productor extends Entity {
+}
+
+class Location {
++String locationId
++double latitude;
++double longitude;
++String getLocationId()
++double getLatitude()
++double getLongitude()
+}
+
+class Product{
+-String name
+-boolean isSoldOut
+}
+
+class Expedition{
+-int dayOffset
+-List<Pair<Entity, List<Delivery>>> dayDeliveries
++void addDelivery(Delivery delivery, Entity entity)
+}
+class Delivery{
+-Entity client
+-int dayOffset
+-ArrayList<Pair<Product, Pair<Productor, Double>>> productProductorAndQuantityDeliveredList
++void addProduct (Product product, Productor productor, Double quantity)
+}
+class GlobalProductStore{
+-TreeMap<Integer, List<Pair<Product, List<Pair<Double, Productor>>>>> stockMap = new TreeMap<>()
+-TreeMap<Integer, List<Pair<Product, List<Pair<Double, Entity>>>>> orderMap = new TreeMap<>()
+}
+
+class Basket{
+-ArrayList<Pair<Product, Double>> products
+}
+class Organization {
+-EntityStore entityStore
+-IrrigationControllerStore irrigationControllerStore
++EntityStore getEntityStore()
++IrrigationControllerStore getIrrigationControllerStore()
+}
+}
+}
+
+package Utils {
+class Hour {
+-int hours
+-int minutes
+-int seconds
+}
+
+class Date {
+-int day
+-int month
+-int year
+-HashMap<Integer,Integer> months
+}
+class Pair {
+-F first
+-S second
++F getFirst()
++S getSecond()
+}
+
+}
+
+package Graph {
+
+package map {
+
+class MapGraph {
+-Map<V, MapVertex<V, E>> mapVertices
++boolean validVertex(V vert)
++Collection<V> adjVertices(V vert)
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++ Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++MapGraph<V, E> clone()
++String toString()
+}
+
+class MapVertex {
+-V element
+-Map<V, Edge<V, E>> outVerts
++V getElement()
++void addAdjVert(V vAdj, Edge<V, E> edge)
++void remAdjVert(V vAdj)
++Edge<V, E> getEdge(V vAdj)
++int numAdjVerts()
++Collection<V> getAllAdjVerts()
++Collection<Edge<V, E>> getAllOutEdges()
++String toString()
+}
+
+}
+
+class Edge {
+-V vOrig
+-V vDest
+-E weight
++V getVOrig()
++V getVDest()
++E getWeight()
++String toString()
++boolean equals(Object o)
++int compareTo(Object o)
+}
+
+interface Graph {
++boolean isDirected()
++int numVertices()
++ArrayList<V> vertices()
++boolean validVertex(V vert)
++int key(V vert)
++V vertex(int key)
++Collection<V> adjVertices(V vert)
++int numEdges()
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++Graph<V, E> clone()
+}
+
+class Algorithms {
++LinkedList<V> BreadthFirstSearch(Graph<V, E> g, V vert)
++void DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++LinkedList<V> DepthFirstSearch(Graph<V, E> g, V vert)
++void allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited, LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++void shortestPathDijkstra(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, boolean[] visited, V [] pathKeys, E [] dist)
++boolean shortestPaths(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, ArrayList<LinkedList<V>> paths, ArrayList<E> dists)
++void getPath(Graph<V, E> g, V vOrig, V vDest, V [] pathKeys, LinkedList<V> path)
++MatrixGraph<V,E> minDistGraph(Graph <V,E> g, Comparator<E> ce, BinaryOperator<E> sum)
++MapGraph<V,E> kruskallAlgorithm(Graph<V,E> g)
+}
+
+
+MainMenuUi .->MinimumNetworkUi
+MainMenuUi .->DefineHubsUi
+MainMenuUi .->FindNearestHubUi
+MainMenuUi .->VerifyConnectivityUi
+MainMenuUi .->ImportEntitiesUi
+MainMenuUi .->IrrigationUi
+MainMenuUi .-> GenerateExpeditionsWithoutRestrictionsUi
+MainMenuUi .-> GenerateExpeditionsWithRestrictionsUi
+MainMenuUi .-> ImportBasketsUi
+MainMenuUi .-> ExpeditionStatsUi
+GenerateExpeditionsWithRestrictionsUi .-> MinimumDistanceRouteUi
+IrrigationUi .-> IrrigationCheckerUi
+IrrigationUi .-> IrrigationCalendarUi
+IrrigationUi .-> ImportIrrigationDataUi
+IrrigationCheckerUi .-> IrrigationCheckerController
+IrrigationCalendarUi .-> IrrigationCalendar
+ImportIrrigationDataUi .-> ImportIrrigationDataController
+ImportIrrigationDataController .-> IrrigationControllerStore
+ImportIrrigationDataController .-> IrrigationCalendar
+IrrigationCalendar --> Date
+IrrigationCalendar --> Hour
+IrrigationCalendar --> Plot
+GenerateExpeditionsWithRestrictionsUi .> CalculateExpeditionsController
+GenerateExpeditionsWithoutRestrictionsUi .> CalculateExpeditionsNoRestrictionsController
+ImportBasketsUi .> ImportBasketsController
+ExpeditionStatsUi .> ExpeditionStatsController
+MinimumDistanceRouteUi .> MinimumDistanceRouteController
+IrrigationControllerStore -> IrrigationController : contains >
+Organization --> IrrigationControllerStore : contains >
+MapGraph .-> Graph
+MapGraph -> Edge : contains >
+MinimumNetworkUi .-> MinimumNetworkController
+MinimumNetworkController .-> MapGraph
+MinimumNetworkController .-> Algorithms
+MinimumNetworkController .-> Pair
+MinimumNetworkController .-> EntityStore
+MinimumNetworkController .-> Organization
+VerifyConnectivityUi .-> VerifyConnectivityController
+VerifyConnectivityController .-> MapGraph
+VerifyConnectivityController .-> Algorithms
+VerifyConnectivityController .-> Pair
+VerifyConnectivityController .-> EntityStore
+VerifyConnectivityController .-> Organization
+DefineHubsUi .-> DefineHubsController
+DefineHubsController .-> MapGraph
+DefineHubsController .-> Algorithms
+DefineHubsController .-> Pair
+DefineHubsController .-> EntityStore
+DefineHubsController .-> Organization
+FindNearestHubUi .-> FindNearestHubController
+FindNearestHubController .-> MapGraph
+FindNearestHubController .-> Algorithms
+FindNearestHubController .-> Pair
+FindNearestHubController .-> EntityStore
+FindNearestHubController .-> Organization
+ImportEntitiesUi .-> ImportEntitiesController
+ImportEntitiesController .-> MapGraph
+ImportEntitiesController .-> Algorithms
+ImportEntitiesController .-> Pair
+ImportEntitiesController .-> EntityStore
+ImportEntitiesController .-> Organization
+EntityStore -> Entity : contains >
+ExpeditionStore -> Expedition : contains >
+Expedition -> Delivery : contains
+Organization --> EntityStore : contains >
+EntityStore .-> MapGraph
+Entity -> Location : contains >
+Basket -> Product : contains >
+
+@enduml

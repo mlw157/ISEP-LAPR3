@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests to define hubs
+activate ":System"
+":System" --> user : requests data (number of hubs to define)
+deactivate ":System"
+
+user -> ":System" : inputs data
+activate ":System"
+":System" --> user : informs success/failure message
+deactivate ":System"
+
+@enduml

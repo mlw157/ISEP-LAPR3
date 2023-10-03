@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "System User" as user
+
+activate user
+
+user -> ":System" : requests the verification of connectivity of the graph
+activate ":System"
+":System" --> user : Informs the user if the graph is connected or not and \n shows the minimum number of connections needed \n so that, in this network, any client/producer can contact any other.
+deactivate ":System"
+
+@enduml

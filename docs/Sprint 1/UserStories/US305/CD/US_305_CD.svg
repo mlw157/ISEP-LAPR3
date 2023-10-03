@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1716px" preserveAspectRatio="none" style="width:2425px;height:1716px;background:#FFFFFF;" version="1.1" viewBox="0 0 2425 1716" width="2425px" zoomAndPan="magnify"><defs/><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><g id="cluster_ui"><path d="M1240.5,6 L1254.5,6 A3.75,3.75 0 0 1 1257,8.5 L1264,27.6406 L1631.5,27.6406 A2.5,2.5 0 0 1 1634,30.1406 L1634,148.5 A2.5,2.5 0 0 1 1631.5,151 L1240.5,151 A2.5,2.5 0 0 1 1238,148.5 L1238,8.5 A2.5,2.5 0 0 1 1240.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1238" x2="1264" y1="27.6406" y2="27.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="1242" y="20.6738">ui</text></g><!--MD5=[1f2cfc53d9d308f53762fd0fcbaa4873]
+cluster Controller--><g id="cluster_Controller"><path d="M1186.5,184 L1258.5,184 A3.75,3.75 0 0 1 1261,186.5 L1268,205.6406 L1685.5,205.6406 A2.5,2.5 0 0 1 1688,208.1406 L1688,342.5 A2.5,2.5 0 0 1 1685.5,345 L1186.5,345 A2.5,2.5 0 0 1 1184,342.5 L1184,186.5 A2.5,2.5 0 0 1 1186.5,184 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1184" x2="1268" y1="205.6406" y2="205.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="1188" y="198.6738">Controller</text></g><!--MD5=[121a8bf1197281ab89ed693fab589f94]
+cluster Domain--><g id="cluster_Domain"><path d="M8.5,378 L61.5,378 A3.75,3.75 0 0 1 64,380.5 L71,399.6406 L1399.5,399.6406 A2.5,2.5 0 0 1 1402,402.1406 L1402,824.5 A2.5,2.5 0 0 1 1399.5,827 L8.5,827 A2.5,2.5 0 0 1 6,824.5 L6,380.5 A2.5,2.5 0 0 1 8.5,378 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="71" y1="399.6406" y2="399.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="10" y="392.6738">Domain</text></g><!--MD5=[7ce1723ddb6e6233854253973eae5a71]
+cluster Store--><g id="cluster_Store"><path d="M918.5,658 L957.5,658 A3.75,3.75 0 0 1 960,660.5 L967,679.6406 L1375.5,679.6406 A2.5,2.5 0 0 1 1378,682.1406 L1378,800.5 A2.5,2.5 0 0 1 1375.5,803 L918.5,803 A2.5,2.5 0 0 1 916,800.5 L916,660.5 A2.5,2.5 0 0 1 918.5,658 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="916" x2="967" y1="679.6406" y2="679.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="920" y="672.6738">Store</text></g><!--MD5=[15636c1ca4a123c16a2a1a8e90aca7a9]
+cluster Model--><g id="cluster_Model"><path d="M32.5,420 L77.5,420 A3.75,3.75 0 0 1 80,422.5 L87,441.6406 L889.5,441.6406 A2.5,2.5 0 0 1 892,444.1406 L892,777 A2.5,2.5 0 0 1 889.5,779.5 L32.5,779.5 A2.5,2.5 0 0 1 30,777 L30,422.5 A2.5,2.5 0 0 1 32.5,420 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="30" x2="87" y1="441.6406" y2="441.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="34" y="434.6738">Model</text></g><!--MD5=[7e40339c58605559321960399585b560]
+cluster Utils--><g id="cluster_Utils"><path d="M218.5,860 L250.5,860 A3.75,3.75 0 0 1 253,862.5 L260,881.6406 L2415.5,881.6406 A2.5,2.5 0 0 1 2418,884.1406 L2418,1706.5 A2.5,2.5 0 0 1 2415.5,1709 L218.5,1709 A2.5,2.5 0 0 1 216,1706.5 L216,862.5 A2.5,2.5 0 0 1 218.5,860 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="216" x2="260" y1="881.6406" y2="881.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="31" x="220" y="874.6738">Utils</text></g><!--MD5=[c0a55fc040d4de26ef61760e050063db]
+cluster Graph--><g id="cluster_Graph"><path d="M242.5,902 L286.5,902 A3.75,3.75 0 0 1 289,904.5 L296,923.6406 L2262.5,923.6406 A2.5,2.5 0 0 1 2265,926.1406 L2265,1682.5 A2.5,2.5 0 0 1 2262.5,1685 L242.5,1685 A2.5,2.5 0 0 1 240,1682.5 L240,904.5 A2.5,2.5 0 0 1 242.5,902 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="240" x2="296" y1="923.6406" y2="923.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="244" y="916.6738">Graph</text></g><!--MD5=[c670268a59e1f2fa2e9d3e232bc65e6c]
+cluster map--><g id="cluster_map"><path d="M266.5,944 L296.5,944 A3.75,3.75 0 0 1 299,946.5 L306,965.6406 L950.5,965.6406 A2.5,2.5 0 0 1 953,968.1406 L953,1274.5 A2.5,2.5 0 0 1 950.5,1277 L266.5,1277 A2.5,2.5 0 0 1 264,1274.5 L264,946.5 A2.5,2.5 0 0 1 266.5,944 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="264" x2="306" y1="965.6406" y2="965.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="29" x="268" y="958.6738">map</text></g><!--MD5=[d93dab14c473aefa69c7a40555bfdd6c]
+class MinimumNetworkUi--><g id="elem_MinimumNetworkUi"><rect codeLine="4" fill="#F1F1F1" height="94.9219" id="MinimumNetworkUi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="364" x="1254" y="40"/><ellipse cx="1373.25" cy="56" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1376.0156,51.875 Q1376.1719,51.6563 1376.3594,51.5469 Q1376.5469,51.4375 1376.7656,51.4375 Q1377.1406,51.4375 1377.375,51.7031 Q1377.6094,51.9531 1377.6094,52.5625 L1377.6094,54.0156 Q1377.6094,54.625 1377.375,54.8906 Q1377.1406,55.1563 1376.7656,55.1563 Q1376.4219,55.1563 1376.2188,54.9531 Q1376.0156,54.7656 1375.9063,54.25 Q1375.8594,53.8906 1375.6719,53.7031 Q1375.3438,53.3281 1374.7344,53.1094 Q1374.125,52.8906 1373.5,52.8906 Q1372.7344,52.8906 1372.0938,53.2188 Q1371.4688,53.5469 1370.9688,54.2969 Q1370.4844,55.0469 1370.4844,56.0781 L1370.4844,57.1719 Q1370.4844,58.4063 1371.375,59.2344 Q1372.2656,60.0469 1373.8594,60.0469 Q1374.7969,60.0469 1375.4531,59.7969 Q1375.8438,59.6406 1376.2656,59.2031 Q1376.5313,58.9375 1376.6719,58.8594 Q1376.8281,58.7813 1377.0313,58.7813 Q1377.3594,58.7813 1377.6094,59.0469 Q1377.875,59.2969 1377.875,59.6406 Q1377.875,59.9844 1377.5313,60.3906 Q1377.0313,60.9688 1376.2344,61.2969 Q1375.1563,61.75 1373.8594,61.75 Q1372.3438,61.75 1371.1406,61.125 Q1370.1563,60.625 1369.4688,59.5625 Q1368.7813,58.4844 1368.7813,57.2031 L1368.7813,56.0469 Q1368.7813,54.7188 1369.3906,53.5781 Q1370.0156,52.4219 1371.1094,51.8125 Q1372.2031,51.1875 1373.4375,51.1875 Q1374.1719,51.1875 1374.8125,51.3594 Q1375.4688,51.5156 1376.0156,51.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1393.75" y="60.8535">MinimumNetworkUi</text><line style="stroke:#181818;stroke-width:0.5;" x1="1255" x2="1617" y1="72" y2="72"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1262" y="82.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="338" x="1274" y="88.6738">MinimumNetworkController minimumNetworkController</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1262" y="97.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1274" y="104.3145">Scanner sc</text><line style="stroke:#181818;stroke-width:0.5;" x1="1255" x2="1617" y1="111.2813" y2="111.2813"/><ellipse cx="1265" cy="124.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1274" y="127.9551">void run()</text></g><!--MD5=[e704d0261f83645145538d23957fcac6]
+class MinimumNetworkController--><g id="elem_MinimumNetworkController"><rect codeLine="12" fill="#F1F1F1" height="110.5625" id="MinimumNetworkController" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="472" x="1200" y="218"/><ellipse cx="1348.25" cy="234" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1351.0156,229.875 Q1351.1719,229.6563 1351.3594,229.5469 Q1351.5469,229.4375 1351.7656,229.4375 Q1352.1406,229.4375 1352.375,229.7031 Q1352.6094,229.9531 1352.6094,230.5625 L1352.6094,232.0156 Q1352.6094,232.625 1352.375,232.8906 Q1352.1406,233.1563 1351.7656,233.1563 Q1351.4219,233.1563 1351.2188,232.9531 Q1351.0156,232.7656 1350.9063,232.25 Q1350.8594,231.8906 1350.6719,231.7031 Q1350.3438,231.3281 1349.7344,231.1094 Q1349.125,230.8906 1348.5,230.8906 Q1347.7344,230.8906 1347.0938,231.2188 Q1346.4688,231.5469 1345.9688,232.2969 Q1345.4844,233.0469 1345.4844,234.0781 L1345.4844,235.1719 Q1345.4844,236.4063 1346.375,237.2344 Q1347.2656,238.0469 1348.8594,238.0469 Q1349.7969,238.0469 1350.4531,237.7969 Q1350.8438,237.6406 1351.2656,237.2031 Q1351.5313,236.9375 1351.6719,236.8594 Q1351.8281,236.7813 1352.0313,236.7813 Q1352.3594,236.7813 1352.6094,237.0469 Q1352.875,237.2969 1352.875,237.6406 Q1352.875,237.9844 1352.5313,238.3906 Q1352.0313,238.9688 1351.2344,239.2969 Q1350.1563,239.75 1348.8594,239.75 Q1347.3438,239.75 1346.1406,239.125 Q1345.1563,238.625 1344.4688,237.5625 Q1343.7813,236.4844 1343.7813,235.2031 L1343.7813,234.0469 Q1343.7813,232.7188 1344.3906,231.5781 Q1345.0156,230.4219 1346.1094,229.8125 Q1347.2031,229.1875 1348.4375,229.1875 Q1349.1719,229.1875 1349.8125,229.3594 Q1350.4688,229.5156 1351.0156,229.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1368.75" y="238.8535">MinimumNetworkController</text><line style="stroke:#181818;stroke-width:0.5;" x1="1201" x2="1671" y1="250" y2="250"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1208" y="260.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1220" y="266.6738">EntityStore entityStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1208" y="275.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="1220" y="282.3145">MapGraph &lt;Entity,Integer&gt; mapGraph</text><line style="stroke:#181818;stroke-width:0.5;" x1="1201" x2="1671" y1="289.2813" y2="289.2813"/><ellipse cx="1211" cy="302.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="323" x="1220" y="305.9551">MapGraph&lt;Entity, Integer&gt; getMinimumDistGraph()</text><ellipse cx="1211" cy="318.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="446" x="1220" y="321.5957">int getMinimumNetworkDistance(MapGraph&lt;Entity,Integer&gt; mapGraph)</text></g><!--MD5=[c49a981f9454adb5c4e8272b1f105a5b]
+class EntityStore--><g id="elem_EntityStore"><rect codeLine="22" fill="#F1F1F1" height="94.9219" id="EntityStore" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="430" x="932" y="692"/><ellipse cx="1108.25" cy="708" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1111.0156,703.875 Q1111.1719,703.6563 1111.3594,703.5469 Q1111.5469,703.4375 1111.7656,703.4375 Q1112.1406,703.4375 1112.375,703.7031 Q1112.6094,703.9531 1112.6094,704.5625 L1112.6094,706.0156 Q1112.6094,706.625 1112.375,706.8906 Q1112.1406,707.1563 1111.7656,707.1563 Q1111.4219,707.1563 1111.2188,706.9531 Q1111.0156,706.7656 1110.9063,706.25 Q1110.8594,705.8906 1110.6719,705.7031 Q1110.3438,705.3281 1109.7344,705.1094 Q1109.125,704.8906 1108.5,704.8906 Q1107.7344,704.8906 1107.0938,705.2188 Q1106.4688,705.5469 1105.9688,706.2969 Q1105.4844,707.0469 1105.4844,708.0781 L1105.4844,709.1719 Q1105.4844,710.4063 1106.375,711.2344 Q1107.2656,712.0469 1108.8594,712.0469 Q1109.7969,712.0469 1110.4531,711.7969 Q1110.8438,711.6406 1111.2656,711.2031 Q1111.5313,710.9375 1111.6719,710.8594 Q1111.8281,710.7813 1112.0313,710.7813 Q1112.3594,710.7813 1112.6094,711.0469 Q1112.875,711.2969 1112.875,711.6406 Q1112.875,711.9844 1112.5313,712.3906 Q1112.0313,712.9688 1111.2344,713.2969 Q1110.1563,713.75 1108.8594,713.75 Q1107.3438,713.75 1106.1406,713.125 Q1105.1563,712.625 1104.4688,711.5625 Q1103.7813,710.4844 1103.7813,709.2031 L1103.7813,708.0469 Q1103.7813,706.7188 1104.3906,705.5781 Q1105.0156,704.4219 1106.1094,703.8125 Q1107.2031,703.1875 1108.4375,703.1875 Q1109.1719,703.1875 1109.8125,703.3594 Q1110.4688,703.5156 1111.0156,703.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1128.75" y="712.8535">EntityStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="933" x2="1361" y1="724" y2="724"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="940" y="734.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="952" y="740.6738">MapGraph&lt;Entity, Integer&gt; entitiesGraph</text><line style="stroke:#181818;stroke-width:0.5;" x1="933" x2="1361" y1="747.6406" y2="747.6406"/><ellipse cx="943" cy="760.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="290" x="952" y="764.3145">MapGraph&lt;Entity, Integer&gt; getEntitiesGraph()</text><ellipse cx="943" cy="776.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="404" x="952" y="779.9551">void setEntitiesGraph(MapGraph&lt;Entity, Integer&gt; entitiesGraph)</text></g><!--MD5=[be996cdb8e6bf2fc7cb89c555f2cd144]
+class Entity--><g id="elem_Entity"><rect codeLine="30" fill="#F1F1F1" height="126.2031" id="Entity" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="168" x="46" y="462"/><ellipse cx="108.25" cy="478" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M110.4375,479.7656 L106.2969,479.7656 L105.875,480.7969 L106.2969,480.7969 Q106.9063,480.7969 107.1719,481.0313 Q107.4375,481.2656 107.4375,481.6563 Q107.4375,482.0313 107.1719,482.2656 Q106.9063,482.5 106.2969,482.5 L104,482.5 Q103.3906,482.5 103.1406,482.2656 Q102.875,482.0313 102.875,481.6406 Q102.875,481.2656 103.1563,481.0313 Q103.4219,480.7813 104.0469,480.7969 L106.7188,474.1406 L105.6094,474.1406 Q105,474.1406 104.7344,473.9063 Q104.4688,473.6719 104.4688,473.2813 Q104.4688,472.9063 104.7344,472.6719 Q105,472.4375 105.6094,472.4375 L109.2813,472.4375 L112.6719,480.7969 Q113.2656,480.7969 113.4531,480.9375 Q113.8438,481.2031 113.8438,481.6563 Q113.8438,482.0313 113.5781,482.2656 Q113.3281,482.5 112.7188,482.5 L110.4219,482.5 Q109.8125,482.5 109.5469,482.2656 Q109.2813,482.0313 109.2813,481.6406 Q109.2813,481.2656 109.5469,481.0313 Q109.8125,480.7969 110.4219,480.7969 L110.8438,480.7969 L110.4375,479.7656 Z M109.7188,478.0625 L108.3594,474.6875 L106.9844,478.0625 L109.7188,478.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="35" x="128.75" y="482.8535">Entity</text><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="213" y1="494" y2="494"/><ellipse cx="57" cy="507.3203" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="66" y="510.6738">Location location</text><ellipse cx="57" cy="522.9609" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="66" y="526.3145">String name</text><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="213" y1="533.2813" y2="533.2813"/><ellipse cx="57" cy="546.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="66" y="549.9551">Location getLocation()</text><ellipse cx="57" cy="562.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="66" y="565.5957">String getName()</text><ellipse cx="57" cy="577.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="66" y="581.2363">String toString()</text></g><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><g id="elem_Client"><rect codeLine="39" fill="#F1F1F1" height="48" id="Client" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="68" x="46" y="715.5"/><ellipse cx="61" cy="731.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M63.7656,727.375 Q63.9219,727.1563 64.1094,727.0469 Q64.2969,726.9375 64.5156,726.9375 Q64.8906,726.9375 65.125,727.2031 Q65.3594,727.4531 65.3594,728.0625 L65.3594,729.5156 Q65.3594,730.125 65.125,730.3906 Q64.8906,730.6563 64.5156,730.6563 Q64.1719,730.6563 63.9688,730.4531 Q63.7656,730.2656 63.6563,729.75 Q63.6094,729.3906 63.4219,729.2031 Q63.0938,728.8281 62.4844,728.6094 Q61.875,728.3906 61.25,728.3906 Q60.4844,728.3906 59.8438,728.7188 Q59.2188,729.0469 58.7188,729.7969 Q58.2344,730.5469 58.2344,731.5781 L58.2344,732.6719 Q58.2344,733.9063 59.125,734.7344 Q60.0156,735.5469 61.6094,735.5469 Q62.5469,735.5469 63.2031,735.2969 Q63.5938,735.1406 64.0156,734.7031 Q64.2813,734.4375 64.4219,734.3594 Q64.5781,734.2813 64.7813,734.2813 Q65.1094,734.2813 65.3594,734.5469 Q65.625,734.7969 65.625,735.1406 Q65.625,735.4844 65.2813,735.8906 Q64.7813,736.4688 63.9844,736.7969 Q62.9063,737.25 61.6094,737.25 Q60.0938,737.25 58.8906,736.625 Q57.9063,736.125 57.2188,735.0625 Q56.5313,733.9844 56.5313,732.7031 L56.5313,731.5469 Q56.5313,730.2188 57.1406,729.0781 Q57.7656,727.9219 58.8594,727.3125 Q59.9531,726.6875 61.1875,726.6875 Q61.9219,726.6875 62.5625,726.8594 Q63.2188,727.0156 63.7656,727.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="75" y="736.3535">Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="113" y1="747.5" y2="747.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="47" x2="113" y1="755.5" y2="755.5"/></g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><g id="elem_Company"><rect codeLine="42" fill="#F1F1F1" height="48" id="Company" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="149" y="715.5"/><ellipse cx="164" cy="731.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M166.7656,727.375 Q166.9219,727.1563 167.1094,727.0469 Q167.2969,726.9375 167.5156,726.9375 Q167.8906,726.9375 168.125,727.2031 Q168.3594,727.4531 168.3594,728.0625 L168.3594,729.5156 Q168.3594,730.125 168.125,730.3906 Q167.8906,730.6563 167.5156,730.6563 Q167.1719,730.6563 166.9688,730.4531 Q166.7656,730.2656 166.6563,729.75 Q166.6094,729.3906 166.4219,729.2031 Q166.0938,728.8281 165.4844,728.6094 Q164.875,728.3906 164.25,728.3906 Q163.4844,728.3906 162.8438,728.7188 Q162.2188,729.0469 161.7188,729.7969 Q161.2344,730.5469 161.2344,731.5781 L161.2344,732.6719 Q161.2344,733.9063 162.125,734.7344 Q163.0156,735.5469 164.6094,735.5469 Q165.5469,735.5469 166.2031,735.2969 Q166.5938,735.1406 167.0156,734.7031 Q167.2813,734.4375 167.4219,734.3594 Q167.5781,734.2813 167.7813,734.2813 Q168.1094,734.2813 168.3594,734.5469 Q168.625,734.7969 168.625,735.1406 Q168.625,735.4844 168.2813,735.8906 Q167.7813,736.4688 166.9844,736.7969 Q165.9063,737.25 164.6094,737.25 Q163.0938,737.25 161.8906,736.625 Q160.9063,736.125 160.2188,735.0625 Q159.5313,733.9844 159.5313,732.7031 L159.5313,731.5469 Q159.5313,730.2188 160.1406,729.0781 Q160.7656,727.9219 161.8594,727.3125 Q162.9531,726.6875 164.1875,726.6875 Q164.9219,726.6875 165.5625,726.8594 Q166.2188,727.0156 166.7656,727.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="178" y="736.3535">Company</text><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="240" y1="747.5" y2="747.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="150" x2="240" y1="755.5" y2="755.5"/></g><!--MD5=[41d36d5b64ff1ad3ad8cd8035ff73d0f]
+class Productor--><g id="elem_Productor"><rect codeLine="45" fill="#F1F1F1" height="48" id="Productor" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="276" y="715.5"/><ellipse cx="291" cy="731.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M293.7656,727.375 Q293.9219,727.1563 294.1094,727.0469 Q294.2969,726.9375 294.5156,726.9375 Q294.8906,726.9375 295.125,727.2031 Q295.3594,727.4531 295.3594,728.0625 L295.3594,729.5156 Q295.3594,730.125 295.125,730.3906 Q294.8906,730.6563 294.5156,730.6563 Q294.1719,730.6563 293.9688,730.4531 Q293.7656,730.2656 293.6563,729.75 Q293.6094,729.3906 293.4219,729.2031 Q293.0938,728.8281 292.4844,728.6094 Q291.875,728.3906 291.25,728.3906 Q290.4844,728.3906 289.8438,728.7188 Q289.2188,729.0469 288.7188,729.7969 Q288.2344,730.5469 288.2344,731.5781 L288.2344,732.6719 Q288.2344,733.9063 289.125,734.7344 Q290.0156,735.5469 291.6094,735.5469 Q292.5469,735.5469 293.2031,735.2969 Q293.5938,735.1406 294.0156,734.7031 Q294.2813,734.4375 294.4219,734.3594 Q294.5781,734.2813 294.7813,734.2813 Q295.1094,734.2813 295.3594,734.5469 Q295.625,734.7969 295.625,735.1406 Q295.625,735.4844 295.2813,735.8906 Q294.7813,736.4688 293.9844,736.7969 Q292.9063,737.25 291.6094,737.25 Q290.0938,737.25 288.8906,736.625 Q287.9063,736.125 287.2188,735.0625 Q286.5313,733.9844 286.5313,732.7031 L286.5313,731.5469 Q286.5313,730.2188 287.1406,729.0781 Q287.7656,727.9219 288.8594,727.3125 Q289.9531,726.6875 291.1875,726.6875 Q291.9219,726.6875 292.5625,726.8594 Q293.2188,727.0156 293.7656,727.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="305" y="736.3535">Productor</text><line style="stroke:#181818;stroke-width:0.5;" x1="277" x2="369" y1="747.5" y2="747.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="277" x2="369" y1="755.5" y2="755.5"/></g><!--MD5=[4f1f3706c1a355a8488e154afcaed5df]
+class Location--><g id="elem_Location"><rect codeLine="48" fill="#F1F1F1" height="141.8438" id="Location" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="313" y="454"/><ellipse cx="364.75" cy="470" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M367.5156,465.875 Q367.6719,465.6563 367.8594,465.5469 Q368.0469,465.4375 368.2656,465.4375 Q368.6406,465.4375 368.875,465.7031 Q369.1094,465.9531 369.1094,466.5625 L369.1094,468.0156 Q369.1094,468.625 368.875,468.8906 Q368.6406,469.1563 368.2656,469.1563 Q367.9219,469.1563 367.7188,468.9531 Q367.5156,468.7656 367.4063,468.25 Q367.3594,467.8906 367.1719,467.7031 Q366.8438,467.3281 366.2344,467.1094 Q365.625,466.8906 365,466.8906 Q364.2344,466.8906 363.5938,467.2188 Q362.9688,467.5469 362.4688,468.2969 Q361.9844,469.0469 361.9844,470.0781 L361.9844,471.1719 Q361.9844,472.4063 362.875,473.2344 Q363.7656,474.0469 365.3594,474.0469 Q366.2969,474.0469 366.9531,473.7969 Q367.3438,473.6406 367.7656,473.2031 Q368.0313,472.9375 368.1719,472.8594 Q368.3281,472.7813 368.5313,472.7813 Q368.8594,472.7813 369.1094,473.0469 Q369.375,473.2969 369.375,473.6406 Q369.375,473.9844 369.0313,474.3906 Q368.5313,474.9688 367.7344,475.2969 Q366.6563,475.75 365.3594,475.75 Q363.8438,475.75 362.6406,475.125 Q361.6563,474.625 360.9688,473.5625 Q360.2813,472.4844 360.2813,471.2031 L360.2813,470.0469 Q360.2813,468.7188 360.8906,467.5781 Q361.5156,466.4219 362.6094,465.8125 Q363.7031,465.1875 364.9375,465.1875 Q365.6719,465.1875 366.3125,465.3594 Q366.9688,465.5156 367.5156,465.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="385.25" y="474.8535">Location</text><line style="stroke:#181818;stroke-width:0.5;" x1="314" x2="478" y1="486" y2="486"/><ellipse cx="324" cy="499.3203" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="333" y="502.6738">String locationId</text><ellipse cx="324" cy="514.9609" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="333" y="518.3145">double latitude;</text><ellipse cx="324" cy="530.6016" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="333" y="533.9551">double longitude;</text><line style="stroke:#181818;stroke-width:0.5;" x1="314" x2="478" y1="540.9219" y2="540.9219"/><ellipse cx="324" cy="554.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="333" y="557.5957">String getLocationId()</text><ellipse cx="324" cy="569.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="333" y="573.2363">double getLatitude()</text><ellipse cx="324" cy="585.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="333" y="588.877">double getLongitude()</text></g><!--MD5=[86c7c362de55a38b660185a1328fe18d]
+class Organization--><g id="elem_Organization"><rect codeLine="57" fill="#F1F1F1" height="110.5625" id="Organization" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="362" x="514" y="469.5"/><ellipse cx="650.75" cy="485.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M653.5156,481.375 Q653.6719,481.1563 653.8594,481.0469 Q654.0469,480.9375 654.2656,480.9375 Q654.6406,480.9375 654.875,481.2031 Q655.1094,481.4531 655.1094,482.0625 L655.1094,483.5156 Q655.1094,484.125 654.875,484.3906 Q654.6406,484.6563 654.2656,484.6563 Q653.9219,484.6563 653.7188,484.4531 Q653.5156,484.2656 653.4063,483.75 Q653.3594,483.3906 653.1719,483.2031 Q652.8438,482.8281 652.2344,482.6094 Q651.625,482.3906 651,482.3906 Q650.2344,482.3906 649.5938,482.7188 Q648.9688,483.0469 648.4688,483.7969 Q647.9844,484.5469 647.9844,485.5781 L647.9844,486.6719 Q647.9844,487.9063 648.875,488.7344 Q649.7656,489.5469 651.3594,489.5469 Q652.2969,489.5469 652.9531,489.2969 Q653.3438,489.1406 653.7656,488.7031 Q654.0313,488.4375 654.1719,488.3594 Q654.3281,488.2813 654.5313,488.2813 Q654.8594,488.2813 655.1094,488.5469 Q655.375,488.7969 655.375,489.1406 Q655.375,489.4844 655.0313,489.8906 Q654.5313,490.4688 653.7344,490.7969 Q652.6563,491.25 651.3594,491.25 Q649.8438,491.25 648.6406,490.625 Q647.6563,490.125 646.9688,489.0625 Q646.2813,487.9844 646.2813,486.7031 L646.2813,485.5469 Q646.2813,484.2188 646.8906,483.0781 Q647.5156,481.9219 648.6094,481.3125 Q649.7031,480.6875 650.9375,480.6875 Q651.6719,480.6875 652.3125,480.8594 Q652.9688,481.0156 653.5156,481.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="671.25" y="490.3535">Organization</text><line style="stroke:#181818;stroke-width:0.5;" x1="515" x2="875" y1="501.5" y2="501.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="522" y="511.8203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="534" y="518.1738">EntityStore entityStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="522" y="527.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="306" x="534" y="533.8145">IrrigationControllerStore irrigationControllerStore</text><line style="stroke:#181818;stroke-width:0.5;" x1="515" x2="875" y1="540.7813" y2="540.7813"/><ellipse cx="525" cy="554.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="534" y="557.4551">EntityStore getEntityStore()</text><ellipse cx="525" cy="569.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="336" x="534" y="573.0957">IrrigationControllerStore getIrrigationControllerStore()</text></g><!--MD5=[220f5f32351d35cc72380e3951491ed2]
+class Pair--><g id="elem_Pair"><rect codeLine="69" fill="#F1F1F1" height="110.5625" id="Pair" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="2284.5" y="1064"/><ellipse cx="2326.5" cy="1080" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2329.2656,1075.875 Q2329.4219,1075.6563 2329.6094,1075.5469 Q2329.7969,1075.4375 2330.0156,1075.4375 Q2330.3906,1075.4375 2330.625,1075.7031 Q2330.8594,1075.9531 2330.8594,1076.5625 L2330.8594,1078.0156 Q2330.8594,1078.625 2330.625,1078.8906 Q2330.3906,1079.1563 2330.0156,1079.1563 Q2329.6719,1079.1563 2329.4688,1078.9531 Q2329.2656,1078.7656 2329.1563,1078.25 Q2329.1094,1077.8906 2328.9219,1077.7031 Q2328.5938,1077.3281 2327.9844,1077.1094 Q2327.375,1076.8906 2326.75,1076.8906 Q2325.9844,1076.8906 2325.3438,1077.2188 Q2324.7188,1077.5469 2324.2188,1078.2969 Q2323.7344,1079.0469 2323.7344,1080.0781 L2323.7344,1081.1719 Q2323.7344,1082.4063 2324.625,1083.2344 Q2325.5156,1084.0469 2327.1094,1084.0469 Q2328.0469,1084.0469 2328.7031,1083.7969 Q2329.0938,1083.6406 2329.5156,1083.2031 Q2329.7813,1082.9375 2329.9219,1082.8594 Q2330.0781,1082.7813 2330.2813,1082.7813 Q2330.6094,1082.7813 2330.8594,1083.0469 Q2331.125,1083.2969 2331.125,1083.6406 Q2331.125,1083.9844 2330.7813,1084.3906 Q2330.2813,1084.9688 2329.4844,1085.2969 Q2328.4063,1085.75 2327.1094,1085.75 Q2325.5938,1085.75 2324.3906,1085.125 Q2323.4063,1084.625 2322.7188,1083.5625 Q2322.0313,1082.4844 2322.0313,1081.2031 L2322.0313,1080.0469 Q2322.0313,1078.7188 2322.6406,1077.5781 Q2323.2656,1076.4219 2324.3594,1075.8125 Q2325.4531,1075.1875 2326.6875,1075.1875 Q2327.4219,1075.1875 2328.0625,1075.3594 Q2328.7188,1075.5156 2329.2656,1075.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="2346.5" y="1084.8535">Pair</text><line style="stroke:#181818;stroke-width:0.5;" x1="2285.5" x2="2400.5" y1="1096" y2="1096"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2292.5" y="1106.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="2304.5" y="1112.6738">F first</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2292.5" y="1121.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="2304.5" y="1128.3145">S second</text><line style="stroke:#181818;stroke-width:0.5;" x1="2285.5" x2="2400.5" y1="1135.2813" y2="1135.2813"/><ellipse cx="2295.5" cy="1148.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="2304.5" y="1151.9551">F getFirst()</text><ellipse cx="2295.5" cy="1164.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="2304.5" y="1167.5957">S getSecond()</text></g><!--MD5=[2e2f8c8f62c4eb3bc59a59727cfd81a5]
+class Edge--><g id="elem_Edge"><rect codeLine="114" fill="#F1F1F1" height="188.7656" id="Edge" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="186" x="1036" y="1025"/><ellipse cx="1108.25" cy="1041" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1111.0156,1036.875 Q1111.1719,1036.6563 1111.3594,1036.5469 Q1111.5469,1036.4375 1111.7656,1036.4375 Q1112.1406,1036.4375 1112.375,1036.7031 Q1112.6094,1036.9531 1112.6094,1037.5625 L1112.6094,1039.0156 Q1112.6094,1039.625 1112.375,1039.8906 Q1112.1406,1040.1563 1111.7656,1040.1563 Q1111.4219,1040.1563 1111.2188,1039.9531 Q1111.0156,1039.7656 1110.9063,1039.25 Q1110.8594,1038.8906 1110.6719,1038.7031 Q1110.3438,1038.3281 1109.7344,1038.1094 Q1109.125,1037.8906 1108.5,1037.8906 Q1107.7344,1037.8906 1107.0938,1038.2188 Q1106.4688,1038.5469 1105.9688,1039.2969 Q1105.4844,1040.0469 1105.4844,1041.0781 L1105.4844,1042.1719 Q1105.4844,1043.4063 1106.375,1044.2344 Q1107.2656,1045.0469 1108.8594,1045.0469 Q1109.7969,1045.0469 1110.4531,1044.7969 Q1110.8438,1044.6406 1111.2656,1044.2031 Q1111.5313,1043.9375 1111.6719,1043.8594 Q1111.8281,1043.7813 1112.0313,1043.7813 Q1112.3594,1043.7813 1112.6094,1044.0469 Q1112.875,1044.2969 1112.875,1044.6406 Q1112.875,1044.9844 1112.5313,1045.3906 Q1112.0313,1045.9688 1111.2344,1046.2969 Q1110.1563,1046.75 1108.8594,1046.75 Q1107.3438,1046.75 1106.1406,1046.125 Q1105.1563,1045.625 1104.4688,1044.5625 Q1103.7813,1043.4844 1103.7813,1042.2031 L1103.7813,1041.0469 Q1103.7813,1039.7188 1104.3906,1038.5781 Q1105.0156,1037.4219 1106.1094,1036.8125 Q1107.2031,1036.1875 1108.4375,1036.1875 Q1109.1719,1036.1875 1109.8125,1036.3594 Q1110.4688,1036.5156 1111.0156,1036.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="1128.75" y="1045.8535">Edge</text><line style="stroke:#181818;stroke-width:0.5;" x1="1037" x2="1221" y1="1057" y2="1057"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1044" y="1067.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1056" y="1073.6738">V vOrig</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1044" y="1082.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1056" y="1089.3145">V vDest</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1044" y="1098.6016"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="1056" y="1104.9551">E weight</text><line style="stroke:#181818;stroke-width:0.5;" x1="1037" x2="1221" y1="1111.9219" y2="1111.9219"/><ellipse cx="1047" cy="1125.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1056" y="1128.5957">V getVOrig()</text><ellipse cx="1047" cy="1140.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1056" y="1144.2363">V getVDest()</text><ellipse cx="1047" cy="1156.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1056" y="1159.877">E getWeight()</text><ellipse cx="1047" cy="1172.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1056" y="1175.5176">String toString()</text><ellipse cx="1047" cy="1187.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="1056" y="1191.1582">boolean equals(Object o)</text><ellipse cx="1047" cy="1203.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="154" x="1056" y="1206.7988">int compareTo(Object o)</text></g><!--MD5=[706e73df52f3df32f52be1ce9adb217e]
+class Graph--><g id="elem_Graph"><rect codeLine="126" fill="#F1F1F1" height="345.1719" id="Graph" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="326" x="611" y="1324"/><ellipse cx="749.75" cy="1340" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M750.7031,1336.6406 L750.7031,1343.2969 L752.4219,1343.2969 Q753.0313,1343.2969 753.2969,1343.5313 Q753.5625,1343.7656 753.5625,1344.1563 Q753.5625,1344.5313 753.2969,1344.7656 Q753.0313,1345 752.4219,1345 L747.2813,1345 Q746.6719,1345 746.4063,1344.7656 Q746.1406,1344.5313 746.1406,1344.1406 Q746.1406,1343.7656 746.4063,1343.5313 Q746.6719,1343.2969 747.2813,1343.2969 L749,1343.2969 L749,1336.6406 L747.2813,1336.6406 Q746.6719,1336.6406 746.4063,1336.4063 Q746.1406,1336.1719 746.1406,1335.7813 Q746.1406,1335.4063 746.4063,1335.1719 Q746.6719,1334.9375 747.2813,1334.9375 L752.4219,1334.9375 Q753.0313,1334.9375 753.2969,1335.1719 Q753.5625,1335.4063 753.5625,1335.7813 Q753.5625,1336.1719 753.2969,1336.4063 Q753.0313,1336.6406 752.4219,1336.6406 L750.7031,1336.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40" x="770.25" y="1344.8535">Graph</text><line style="stroke:#181818;stroke-width:0.5;" x1="612" x2="936" y1="1356" y2="1356"/><line style="stroke:#181818;stroke-width:0.5;" x1="612" x2="936" y1="1364" y2="1364"/><ellipse cx="622" cy="1377.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="631" y="1380.6738">boolean isDirected()</text><ellipse cx="622" cy="1392.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="631" y="1396.3145">int numVertices()</text><ellipse cx="622" cy="1408.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="631" y="1411.9551">ArrayList&lt;V&gt; vertices()</text><ellipse cx="622" cy="1424.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="631" y="1427.5957">boolean validVertex(V vert)</text><ellipse cx="622" cy="1439.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="631" y="1443.2363">int key(V vert)</text><ellipse cx="622" cy="1455.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="631" y="1458.877">V vertex(int key)</text><ellipse cx="622" cy="1471.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="631" y="1474.5176">Collection&lt;V&gt; adjVertices(V vert)</text><ellipse cx="622" cy="1486.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="631" y="1490.1582">int numEdges()</text><ellipse cx="622" cy="1502.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="631" y="1505.7988">Collection&lt;Edge&lt;V, E&gt;&gt; edges()</text><ellipse cx="622" cy="1518.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="631" y="1521.4395">Edge&lt;V, E&gt; edge(V vOrig, V vDest)</text><ellipse cx="622" cy="1533.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="631" y="1537.0801">int outDegree(V vert)</text><ellipse cx="622" cy="1549.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="631" y="1552.7207">int inDegree(V vert)</text><ellipse cx="622" cy="1565.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="299" x="631" y="1568.3613">Collection&lt;Edge&lt;V, E&gt;&gt; outgoingEdges(V vert)</text><ellipse cx="622" cy="1580.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="300" x="631" y="1584.002">Collection&lt;Edge&lt;V, E&gt;&gt; incomingEdges(V vert)</text><ellipse cx="622" cy="1596.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="631" y="1599.6426">boolean addVertex(V vert)</text><ellipse cx="622" cy="1611.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="287" x="631" y="1615.2832">boolean addEdge(V vOrig, V vDest, E weight)</text><ellipse cx="622" cy="1627.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="631" y="1630.9238">boolean removeVertex(V vert)</text><ellipse cx="622" cy="1643.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="631" y="1646.5645">boolean removeEdge(V vOrig, V vDest)</text><ellipse cx="622" cy="1658.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="631" y="1662.2051">Graph&lt;V, E&gt; clone()</text></g><!--MD5=[4533588fb66c6fa31a6e04bf29ae6161]
+class Algorithms--><g id="elem_Algorithms"><rect codeLine="148" fill="#F1F1F1" height="188.7656" id="Algorithms" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="992" x="1257" y="1025"/><ellipse cx="1715.75" cy="1041" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1718.5156,1036.875 Q1718.6719,1036.6563 1718.8594,1036.5469 Q1719.0469,1036.4375 1719.2656,1036.4375 Q1719.6406,1036.4375 1719.875,1036.7031 Q1720.1094,1036.9531 1720.1094,1037.5625 L1720.1094,1039.0156 Q1720.1094,1039.625 1719.875,1039.8906 Q1719.6406,1040.1563 1719.2656,1040.1563 Q1718.9219,1040.1563 1718.7188,1039.9531 Q1718.5156,1039.7656 1718.4063,1039.25 Q1718.3594,1038.8906 1718.1719,1038.7031 Q1717.8438,1038.3281 1717.2344,1038.1094 Q1716.625,1037.8906 1716,1037.8906 Q1715.2344,1037.8906 1714.5938,1038.2188 Q1713.9688,1038.5469 1713.4688,1039.2969 Q1712.9844,1040.0469 1712.9844,1041.0781 L1712.9844,1042.1719 Q1712.9844,1043.4063 1713.875,1044.2344 Q1714.7656,1045.0469 1716.3594,1045.0469 Q1717.2969,1045.0469 1717.9531,1044.7969 Q1718.3438,1044.6406 1718.7656,1044.2031 Q1719.0313,1043.9375 1719.1719,1043.8594 Q1719.3281,1043.7813 1719.5313,1043.7813 Q1719.8594,1043.7813 1720.1094,1044.0469 Q1720.375,1044.2969 1720.375,1044.6406 Q1720.375,1044.9844 1720.0313,1045.3906 Q1719.5313,1045.9688 1718.7344,1046.2969 Q1717.6563,1046.75 1716.3594,1046.75 Q1714.8438,1046.75 1713.6406,1046.125 Q1712.6563,1045.625 1711.9688,1044.5625 Q1711.2813,1043.4844 1711.2813,1042.2031 L1711.2813,1041.0469 Q1711.2813,1039.7188 1711.8906,1038.5781 Q1712.5156,1037.4219 1713.6094,1036.8125 Q1714.7031,1036.1875 1715.9375,1036.1875 Q1716.6719,1036.1875 1717.3125,1036.3594 Q1717.9688,1036.5156 1718.5156,1036.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1736.25" y="1045.8535">Algorithms</text><line style="stroke:#181818;stroke-width:0.5;" x1="1258" x2="2248" y1="1057" y2="1057"/><line style="stroke:#181818;stroke-width:0.5;" x1="1258" x2="2248" y1="1065" y2="1065"/><ellipse cx="1268" cy="1078.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="365" x="1277" y="1081.6738">LinkedList&lt;V&gt; BreadthFirstSearch(Graph&lt;V, E&gt; g, V vert)</text><ellipse cx="1268" cy="1093.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="539" x="1277" y="1097.3145">void DepthFirstSearch(Graph&lt;V, E&gt; g, V vOrig, boolean[] visited, LinkedList&lt;V&gt; qdfs)</text><ellipse cx="1268" cy="1109.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="353" x="1277" y="1112.9551">LinkedList&lt;V&gt; DepthFirstSearch(Graph&lt;V, E&gt; g, V vert)</text><ellipse cx="1268" cy="1125.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="744" x="1277" y="1128.5957">void allPaths(Graph&lt;V, E&gt; g, V vOrig, V vDest, boolean[] visited, LinkedList&lt;V&gt; path, ArrayList&lt;LinkedList&lt;V&gt;&gt; paths)</text><ellipse cx="1268" cy="1140.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="909" x="1277" y="1144.2363">void shortestPathDijkstra(Graph&lt;V, E&gt; g, V vOrig, Comparator&lt;E&gt; ce, BinaryOperator&lt;E&gt; sum, E zero, boolean[] visited, V [] pathKeys, E [] dist)</text><ellipse cx="1268" cy="1156.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="966" x="1277" y="1159.877">boolean shortestPaths(Graph&lt;V, E&gt; g, V vOrig, Comparator&lt;E&gt; ce, BinaryOperator&lt;E&gt; sum, E zero, ArrayList&lt;LinkedList&lt;V&gt;&gt; paths, ArrayList&lt;E&gt; dists)</text><ellipse cx="1268" cy="1172.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="516" x="1277" y="1175.5176">void getPath(Graph&lt;V, E&gt; g, V vOrig, V vDest, V [] pathKeys, LinkedList&lt;V&gt; path)</text><ellipse cx="1268" cy="1187.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="596" x="1277" y="1191.1582">MatrixGraph&lt;V,E&gt; minDistGraph(Graph &lt;V,E&gt; g, Comparator&lt;E&gt; ce, BinaryOperator&lt;E&gt; sum)</text><ellipse cx="1268" cy="1203.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="316" x="1277" y="1206.7988">MapGraph&lt;V,E&gt; kruskallAlgorithm(Graph&lt;V,E&gt; g)</text></g><!--MD5=[b122bab300f80f5d31a622e2bae54847]
+class MapGraph--><g id="elem_MapGraph"><rect codeLine="81" fill="#F1F1F1" height="282.6094" id="MapGraph" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="326" x="611" y="978"/><ellipse cx="736.25" cy="994" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M739.0156,989.875 Q739.1719,989.6563 739.3594,989.5469 Q739.5469,989.4375 739.7656,989.4375 Q740.1406,989.4375 740.375,989.7031 Q740.6094,989.9531 740.6094,990.5625 L740.6094,992.0156 Q740.6094,992.625 740.375,992.8906 Q740.1406,993.1563 739.7656,993.1563 Q739.4219,993.1563 739.2188,992.9531 Q739.0156,992.7656 738.9063,992.25 Q738.8594,991.8906 738.6719,991.7031 Q738.3438,991.3281 737.7344,991.1094 Q737.125,990.8906 736.5,990.8906 Q735.7344,990.8906 735.0938,991.2188 Q734.4688,991.5469 733.9688,992.2969 Q733.4844,993.0469 733.4844,994.0781 L733.4844,995.1719 Q733.4844,996.4063 734.375,997.2344 Q735.2656,998.0469 736.8594,998.0469 Q737.7969,998.0469 738.4531,997.7969 Q738.8438,997.6406 739.2656,997.2031 Q739.5313,996.9375 739.6719,996.8594 Q739.8281,996.7813 740.0313,996.7813 Q740.3594,996.7813 740.6094,997.0469 Q740.875,997.2969 740.875,997.6406 Q740.875,997.9844 740.5313,998.3906 Q740.0313,998.9688 739.2344,999.2969 Q738.1563,999.75 736.8594,999.75 Q735.3438,999.75 734.1406,999.125 Q733.1563,998.625 732.4688,997.5625 Q731.7813,996.4844 731.7813,995.2031 L731.7813,994.0469 Q731.7813,992.7188 732.3906,991.5781 Q733.0156,990.4219 734.1094,989.8125 Q735.2031,989.1875 736.4375,989.1875 Q737.1719,989.1875 737.8125,989.3594 Q738.4688,989.5156 739.0156,989.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="756.75" y="998.8535">MapGraph</text><line style="stroke:#181818;stroke-width:0.5;" x1="612" x2="936" y1="1010" y2="1010"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="619" y="1020.3203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="631" y="1026.6738">Map&lt;V, MapVertex&lt;V, E&gt;&gt; mapVertices</text><line style="stroke:#181818;stroke-width:0.5;" x1="612" x2="936" y1="1033.6406" y2="1033.6406"/><ellipse cx="622" cy="1046.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="631" y="1050.3145">boolean validVertex(V vert)</text><ellipse cx="622" cy="1062.6016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="631" y="1065.9551">Collection&lt;V&gt; adjVertices(V vert)</text><ellipse cx="622" cy="1078.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="631" y="1081.5957">Collection&lt;Edge&lt;V, E&gt;&gt; edges()</text><ellipse cx="622" cy="1093.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="631" y="1097.2363">Edge&lt;V, E&gt; edge(V vOrig, V vDest)</text><ellipse cx="622" cy="1109.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="631" y="1112.877">int outDegree(V vert)</text><ellipse cx="622" cy="1125.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="631" y="1128.5176">int inDegree(V vert)</text><ellipse cx="622" cy="1140.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="299" x="631" y="1144.1582">Collection&lt;Edge&lt;V, E&gt;&gt; outgoingEdges(V vert)</text><ellipse cx="622" cy="1156.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="300" x="631" y="1159.7988">Collection&lt;Edge&lt;V, E&gt;&gt; incomingEdges(V vert)</text><ellipse cx="622" cy="1172.0859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="631" y="1175.4395">boolean addVertex(V vert)</text><ellipse cx="622" cy="1187.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="287" x="631" y="1191.0801">boolean addEdge(V vOrig, V vDest, E weight)</text><ellipse cx="622" cy="1203.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="631" y="1206.7207">boolean removeVertex(V vert)</text><ellipse cx="622" cy="1219.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="631" y="1222.3613">boolean removeEdge(V vOrig, V vDest)</text><ellipse cx="622" cy="1234.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="631" y="1238.002">MapGraph&lt;V, E&gt; clone()</text><ellipse cx="622" cy="1250.2891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="631" y="1253.6426">String toString()</text></g><!--MD5=[bc4d72eb6311fa75f72dcf1fe1932b09]
+class MapVertex--><g id="elem_MapVertex"><rect codeLine="99" fill="#F1F1F1" height="204.4063" id="MapVertex" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="295" x="280.5" y="1017.5"/><ellipse cx="390.25" cy="1033.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M393.0156,1029.375 Q393.1719,1029.1563 393.3594,1029.0469 Q393.5469,1028.9375 393.7656,1028.9375 Q394.1406,1028.9375 394.375,1029.2031 Q394.6094,1029.4531 394.6094,1030.0625 L394.6094,1031.5156 Q394.6094,1032.125 394.375,1032.3906 Q394.1406,1032.6563 393.7656,1032.6563 Q393.4219,1032.6563 393.2188,1032.4531 Q393.0156,1032.2656 392.9063,1031.75 Q392.8594,1031.3906 392.6719,1031.2031 Q392.3438,1030.8281 391.7344,1030.6094 Q391.125,1030.3906 390.5,1030.3906 Q389.7344,1030.3906 389.0938,1030.7188 Q388.4688,1031.0469 387.9688,1031.7969 Q387.4844,1032.5469 387.4844,1033.5781 L387.4844,1034.6719 Q387.4844,1035.9063 388.375,1036.7344 Q389.2656,1037.5469 390.8594,1037.5469 Q391.7969,1037.5469 392.4531,1037.2969 Q392.8438,1037.1406 393.2656,1036.7031 Q393.5313,1036.4375 393.6719,1036.3594 Q393.8281,1036.2813 394.0313,1036.2813 Q394.3594,1036.2813 394.6094,1036.5469 Q394.875,1036.7969 394.875,1037.1406 Q394.875,1037.4844 394.5313,1037.8906 Q394.0313,1038.4688 393.2344,1038.7969 Q392.1563,1039.25 390.8594,1039.25 Q389.3438,1039.25 388.1406,1038.625 Q387.1563,1038.125 386.4688,1037.0625 Q385.7813,1035.9844 385.7813,1034.7031 L385.7813,1033.5469 Q385.7813,1032.2188 386.3906,1031.0781 Q387.0156,1029.9219 388.1094,1029.3125 Q389.2031,1028.6875 390.4375,1028.6875 Q391.1719,1028.6875 391.8125,1028.8594 Q392.4688,1029.0156 393.0156,1029.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="410.75" y="1038.3535">MapVertex</text><line style="stroke:#181818;stroke-width:0.5;" x1="281.5" x2="574.5" y1="1049.5" y2="1049.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288.5" y="1059.8203"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="300.5" y="1066.1738">V element</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288.5" y="1075.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="300.5" y="1081.8145">Map&lt;V, Edge&lt;V, E&gt;&gt; outVerts</text><line style="stroke:#181818;stroke-width:0.5;" x1="281.5" x2="574.5" y1="1088.7813" y2="1088.7813"/><ellipse cx="291.5" cy="1102.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="300.5" y="1105.4551">V getElement()</text><ellipse cx="291.5" cy="1117.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="269" x="300.5" y="1121.0957">void addAdjVert(V vAdj, Edge&lt;V, E&gt; edge)</text><ellipse cx="291.5" cy="1133.3828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="300.5" y="1136.7363">void remAdjVert(V vAdj)</text><ellipse cx="291.5" cy="1149.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="300.5" y="1152.377">Edge&lt;V, E&gt; getEdge(V vAdj)</text><ellipse cx="291.5" cy="1164.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="300.5" y="1168.0176">int numAdjVerts()</text><ellipse cx="291.5" cy="1180.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="300.5" y="1183.6582">Collection&lt;V&gt; getAllAdjVerts()</text><ellipse cx="291.5" cy="1195.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="300.5" y="1199.2988">Collection&lt;Edge&lt;V, E&gt;&gt; getAllOutEdges()</text><ellipse cx="291.5" cy="1211.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="300.5" y="1214.9395">String toString()</text></g><!--MD5=[8c18a3e940869885f988beeec74dfa23]
+reverse link Entity to Client--><g id="link_Entity_Client"><path d="M110.77,607.73 C101.67,646.4 91.49,689.66 85.42,715.46 " fill="none" id="Entity-backto-Client" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="104.01,605.9,115.4,588.04,117.64,609.11,104.01,605.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[79a6fbf64dd5211c40c2bdf3b43d1f09]
+reverse link Entity to Company--><g id="link_Entity_Company"><path d="M154.84,607.19 C166.71,646 180.03,689.55 187.95,715.46 " fill="none" id="Entity-backto-Company" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="148.13,609.21,148.98,588.04,161.52,605.11,148.13,609.21" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[df5cabd5f084752480f8178cdbc9505a]
+reverse link Entity to Productor--><g id="link_Entity_Productor"><path d="M212.93,602.36 C228.39,617.69 244.05,634.01 258,650 C276.3,670.97 294.87,696.81 307.45,715.14 " fill="none" id="Entity-backto-Productor" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="207.66,606.99,198.24,588.01,217.44,596.98,207.66,606.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f8596010a7bf3eb0e0448ea4988d2573]
+link MapGraph to Graph--><g id="link_MapGraph_Graph"><path codeLine="160" d="M774,1261.2 C774,1279.91 774,1299.29 774,1318.52 " fill="none" id="MapGraph-to-Graph" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="774,1323.94,778,1314.94,774,1318.94,770,1314.94,774,1323.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7992a734d3762fb19bbd899ae76dd0f0]
+link MapGraph to Edge--><g id="link_MapGraph_Edge"><path codeLine="161" d="M937.21,1119.5 C969.24,1119.5 1001.88,1119.5 1030.95,1119.5 " fill="none" id="MapGraph-to-Edge" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1035.96,1119.5,1026.96,1115.5,1030.96,1119.5,1026.96,1123.5,1035.96,1119.5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="964.5,1108.7617,955.4549,1105.8228,955.4549,1111.7006,964.5,1108.7617" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="968.5" y="1113.2686">contains</text></g><!--MD5=[ef8cbacd771cc1d10a3474af118e943c]
+link MinimumNetworkUi to MinimumNetworkController--><g id="link_MinimumNetworkUi_MinimumNetworkController"><path codeLine="162" d="M1436,135.41 C1436,158.87 1436,187.52 1436,212.56 " fill="none" id="MinimumNetworkUi-to-MinimumNetworkController" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1436,217.84,1440,208.84,1436,212.84,1432,208.84,1436,217.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b93f41947bdfb91734db65751a5af252]
+link MinimumNetworkController to MapGraph--><g id="link_MinimumNetworkController_MapGraph"><path codeLine="163" d="M1438.95,329.3 C1444.5,456.74 1450.16,767.33 1378,835 C1342.55,868.24 983.05,827.65 941,852 C893.51,879.5 857.57,926.49 831.43,973.42 " fill="none" id="MinimumNetworkController-to-MapGraph" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="828.93,977.96,836.7676,971.9958,831.3363,973.5771,829.755,968.1458,828.93,977.96" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[863fdd9a9240f7c04cc5b32b855ce5b8]
+link MinimumNetworkController to Algorithms--><g id="link_MinimumNetworkController_Algorithms"><path codeLine="164" d="M1456.56,329.23 C1509.12,469.17 1648.99,841.58 1716.09,1020.23 " fill="none" id="MinimumNetworkController-to-Algorithms" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1717.86,1024.93,1718.419,1015.097,1716.0919,1020.2531,1710.9358,1017.926,1717.86,1024.93" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f2e51ddcb8398175a77876e26b89a86d]
+link MinimumNetworkController to Pair--><g id="link_MinimumNetworkController_Pair"><path codeLine="165" d="M1562.69,329.03 C1745.23,414.06 2080.52,595.51 2265,852 C2309.54,913.92 2328.82,1001.11 2337.05,1058.67 " fill="none" id="MinimumNetworkController-to-Pair" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2337.76,1063.8,2340.4623,1054.3291,2337.0609,1058.8491,2332.5409,1055.4477,2337.76,1063.8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[13f79788c73d50898c0e859b9260dff8]
+link MinimumNetworkController to EntityStore--><g id="link_MinimumNetworkController_EntityStore"><path codeLine="166" d="M1402,329.09 C1345.65,419.55 1233.71,599.29 1178.83,687.4 " fill="none" id="MinimumNetworkController-to-EntityStore" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="1176.1,691.78,1184.2536,686.2557,1178.7436,687.536,1177.4632,682.0259,1176.1,691.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd1b82e070d429abe3d442b3e210508e]
+link MinimumNetworkController to Organization--><g id="link_MinimumNetworkController_Organization"><path codeLine="167" d="M1273.84,329.1 C1151.9,370.16 985.36,426.23 862.21,467.7 " fill="none" id="MinimumNetworkController-to-Organization" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="857.12,469.41,866.9239,470.3498,861.862,467.8246,864.3872,462.7626,857.12,469.41" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dbb81e212db540d2c132ad9186734a60]
+link EntityStore to Entity--><g id="link_EntityStore_Entity"><path codeLine="168" d="M1032.23,691.99 C988.95,676.24 938.84,660.09 892,650 C761.78,621.95 424.21,628.4 295,596 C269.68,589.65 243.23,579.94 219.11,569.76 " fill="none" id="EntityStore-to-Entity" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="214.32,567.72,221.0356,574.9242,218.9209,569.6775,224.1676,567.5628,214.32,567.72" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="836.0556,633.5185,844.5633,637.7693,845.437,631.9568,836.0556,633.5185" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="850" y="638.7686">contains</text></g><!--MD5=[27af3e5b05b148692edee64938bf48b2]
+link Organization to EntityStore--><g id="link_Organization_EntityStore"><path codeLine="169" d="M811.11,580.59 C882.9,614.34 974.25,657.28 1043.56,689.87 " fill="none" id="Organization-to-EntityStore" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1048.09,692,1041.6555,684.5436,1043.5675,689.8676,1038.2436,691.7796,1048.09,692" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="943.5249,636.389,936.5896,629.8811,934.0889,635.2004,943.5249,636.389" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="948" y="638.7686">contains</text></g><!--MD5=[bb864d56cbec335c1537f4f8b1dca993]
+link EntityStore to MapGraph--><g id="link_EntityStore_MapGraph"><path codeLine="170" d="M1036.35,787.07 C1003.31,804.33 968.58,826.12 941,852 C904.24,886.49 872.27,930.77 846.42,973.29 " fill="none" id="EntityStore-to-MapGraph" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="843.78,977.66,851.8543,972.0203,846.363,973.3788,845.0044,967.8875,843.78,977.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4e8fb74fb059c63d1e1b96be374c1e87]
+link Entity to Location--><g id="link_Entity_Location"><path codeLine="171" d="M214.16,525 C243.95,525 277.53,525 307.65,525 " fill="none" id="Entity-to-Location" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="312.84,525,303.84,521,307.84,525,303.84,529,312.84,525" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#000000" points="241.5,514.2617,232.4549,511.3228,232.4549,517.2006,241.5,514.2617" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="245.5" y="518.7686">contains</text></g><!--MD5=[473843ffb475a95bc0a54fa3d62d2ac9]
+@startuml
+'https://plantuml.com/class-diagram
+
+package ui {
+class MinimumNetworkUi{
+-MinimumNetworkController minimumNetworkController
+-Scanner sc
++void run()
+}
+
+}
+package Controller {
+class MinimumNetworkController{
+-EntityStore entityStore
+-MapGraph <Entity,Integer> mapGraph
++MapGraph<Entity, Integer> getMinimumDistGraph()
++int getMinimumNetworkDistance(MapGraph<Entity,Integer> mapGraph)
+}
+}
+package Domain {
+
+package Store {
+class EntityStore {
+-MapGraph<Entity, Integer> entitiesGraph
++MapGraph<Entity, Integer> getEntitiesGraph()
++void setEntitiesGraph(MapGraph<Entity, Integer> entitiesGraph)
+}
+}
+package Model {
+
+abstract class Entity {
++Location location
++String name
++Location getLocation()
++String getName()
++String toString()
+
+}
+
+class Client extends Entity {
+}
+
+class Company extends Entity {
+}
+
+class Productor extends Entity {
+}
+
+class Location {
++String locationId
++double latitude;
++double longitude;
++String getLocationId()
++double getLatitude()
++double getLongitude()
+}
+
+class Organization {
+-EntityStore entityStore
+-IrrigationControllerStore irrigationControllerStore
++EntityStore getEntityStore()
++IrrigationControllerStore getIrrigationControllerStore()
+}
+
+}
+
+}
+package Utils {
+
+class Pair {
+-F first
+-S second
++F getFirst()
++S getSecond()
+
+}
+
+package Graph {
+
+package map {
+
+class MapGraph {
+-Map<V, MapVertex<V, E>> mapVertices
++boolean validVertex(V vert)
++Collection<V> adjVertices(V vert)
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++ Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++MapGraph<V, E> clone()
++String toString()
+}
+
+class MapVertex {
+-V element
+-Map<V, Edge<V, E>> outVerts
++V getElement()
++void addAdjVert(V vAdj, Edge<V, E> edge)
++void remAdjVert(V vAdj)
++Edge<V, E> getEdge(V vAdj)
++int numAdjVerts()
++Collection<V> getAllAdjVerts()
++Collection<Edge<V, E>> getAllOutEdges()
++String toString()
+}
+
+}
+
+class Edge {
+-V vOrig
+-V vDest
+-E weight
++V getVOrig()
++V getVDest()
++E getWeight()
++String toString()
++boolean equals(Object o)
++int compareTo(Object o)
+}
+
+interface Graph {
++boolean isDirected()
++int numVertices()
++ArrayList<V> vertices()
++boolean validVertex(V vert)
++int key(V vert)
++V vertex(int key)
++Collection<V> adjVertices(V vert)
++int numEdges()
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++Graph<V, E> clone()
+}
+
+class Algorithms {
++LinkedList<V> BreadthFirstSearch(Graph<V, E> g, V vert)
++void DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++LinkedList<V> DepthFirstSearch(Graph<V, E> g, V vert)
++void allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited, LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++void shortestPathDijkstra(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, boolean[] visited, V [] pathKeys, E [] dist)
++boolean shortestPaths(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, ArrayList<LinkedList<V>> paths, ArrayList<E> dists)
++void getPath(Graph<V, E> g, V vOrig, V vDest, V [] pathKeys, LinkedList<V> path)
++MatrixGraph<V,E> minDistGraph(Graph <V,E> g, Comparator<E> ce, BinaryOperator<E> sum)
++MapGraph<V,E> kruskallAlgorithm(Graph<V,E> g)
+}
+
+MapGraph .-> Graph
+MapGraph -> Edge : contains >
+MinimumNetworkUi .-> MinimumNetworkController
+MinimumNetworkController .-> MapGraph
+MinimumNetworkController .-> Algorithms
+MinimumNetworkController .-> Pair
+MinimumNetworkController .-> EntityStore
+MinimumNetworkController .-> Organization
+EntityStore -> Entity : contains >
+Organization - -> EntityStore : contains >
+EntityStore .-> MapGraph
+Entity -> Location : contains >
+
+@enduml
+
+@startuml
+
+package ui {
+class MinimumNetworkUi{
+-MinimumNetworkController minimumNetworkController
+-Scanner sc
++void run()
+}
+
+}
+package Controller {
+class MinimumNetworkController{
+-EntityStore entityStore
+-MapGraph <Entity,Integer> mapGraph
++MapGraph<Entity, Integer> getMinimumDistGraph()
++int getMinimumNetworkDistance(MapGraph<Entity,Integer> mapGraph)
+}
+}
+package Domain {
+
+package Store {
+class EntityStore {
+-MapGraph<Entity, Integer> entitiesGraph
++MapGraph<Entity, Integer> getEntitiesGraph()
++void setEntitiesGraph(MapGraph<Entity, Integer> entitiesGraph)
+}
+}
+package Model {
+
+abstract class Entity {
++Location location
++String name
++Location getLocation()
++String getName()
++String toString()
+
+}
+
+class Client extends Entity {
+}
+
+class Company extends Entity {
+}
+
+class Productor extends Entity {
+}
+
+class Location {
++String locationId
++double latitude;
++double longitude;
++String getLocationId()
++double getLatitude()
++double getLongitude()
+}
+
+class Organization {
+-EntityStore entityStore
+-IrrigationControllerStore irrigationControllerStore
++EntityStore getEntityStore()
++IrrigationControllerStore getIrrigationControllerStore()
+}
+
+}
+
+}
+package Utils {
+
+class Pair {
+-F first
+-S second
++F getFirst()
++S getSecond()
+
+}
+
+package Graph {
+
+package map {
+
+class MapGraph {
+-Map<V, MapVertex<V, E>> mapVertices
++boolean validVertex(V vert)
++Collection<V> adjVertices(V vert)
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++ Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++MapGraph<V, E> clone()
++String toString()
+}
+
+class MapVertex {
+-V element
+-Map<V, Edge<V, E>> outVerts
++V getElement()
++void addAdjVert(V vAdj, Edge<V, E> edge)
++void remAdjVert(V vAdj)
++Edge<V, E> getEdge(V vAdj)
++int numAdjVerts()
++Collection<V> getAllAdjVerts()
++Collection<Edge<V, E>> getAllOutEdges()
++String toString()
+}
+
+}
+
+class Edge {
+-V vOrig
+-V vDest
+-E weight
++V getVOrig()
++V getVDest()
++E getWeight()
++String toString()
++boolean equals(Object o)
++int compareTo(Object o)
+}
+
+interface Graph {
++boolean isDirected()
++int numVertices()
++ArrayList<V> vertices()
++boolean validVertex(V vert)
++int key(V vert)
++V vertex(int key)
++Collection<V> adjVertices(V vert)
++int numEdges()
++Collection<Edge<V, E>> edges()
++Edge<V, E> edge(V vOrig, V vDest)
++int outDegree(V vert)
++int inDegree(V vert)
++Collection<Edge<V, E>> outgoingEdges(V vert)
++Collection<Edge<V, E>> incomingEdges(V vert)
++boolean addVertex(V vert)
++boolean addEdge(V vOrig, V vDest, E weight)
++boolean removeVertex(V vert)
++boolean removeEdge(V vOrig, V vDest)
++Graph<V, E> clone()
+}
+
+class Algorithms {
++LinkedList<V> BreadthFirstSearch(Graph<V, E> g, V vert)
++void DepthFirstSearch(Graph<V, E> g, V vOrig, boolean[] visited, LinkedList<V> qdfs)
++LinkedList<V> DepthFirstSearch(Graph<V, E> g, V vert)
++void allPaths(Graph<V, E> g, V vOrig, V vDest, boolean[] visited, LinkedList<V> path, ArrayList<LinkedList<V>> paths)
++void shortestPathDijkstra(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, boolean[] visited, V [] pathKeys, E [] dist)
++boolean shortestPaths(Graph<V, E> g, V vOrig, Comparator<E> ce, BinaryOperator<E> sum, E zero, ArrayList<LinkedList<V>> paths, ArrayList<E> dists)
++void getPath(Graph<V, E> g, V vOrig, V vDest, V [] pathKeys, LinkedList<V> path)
++MatrixGraph<V,E> minDistGraph(Graph <V,E> g, Comparator<E> ce, BinaryOperator<E> sum)
++MapGraph<V,E> kruskallAlgorithm(Graph<V,E> g)
+}
+
+MapGraph .-> Graph
+MapGraph -> Edge : contains >
+MinimumNetworkUi .-> MinimumNetworkController
+MinimumNetworkController .-> MapGraph
+MinimumNetworkController .-> Algorithms
+MinimumNetworkController .-> Pair
+MinimumNetworkController .-> EntityStore
+MinimumNetworkController .-> Organization
+EntityStore -> Entity : contains >
+Organization - -> EntityStore : contains >
+EntityStore .-> MapGraph
+Entity -> Location : contains >
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>
